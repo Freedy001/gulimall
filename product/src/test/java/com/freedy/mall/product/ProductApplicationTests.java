@@ -1,13 +1,29 @@
 package com.freedy.mall.product;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+
+@RunWith(SpringRunner.class)
 @SpringBootTest
-class ProductApplicationTests {
+public class ProductApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
-
+//    @Autowired
+//    OSSClient ossClient;
+//
+//    @Test
+//    public void testUpload() throws FileNotFoundException {
+//        // 上传文件流。
+//        InputStream inputStream = new FileInputStream("D:\\视频图片素材\\图片\\DJI_0015.JPG");
+//        ossClient.putObject("freedy", "DJI_0143.JPG", inputStream);
+//        // 关闭OSSClient。
+//        ossClient.shutdown();
+//        System.out.println("上传成功");
+//    }
 }
