@@ -2,6 +2,18 @@ spring:
   cloud:
     gateway:
       routes:
+        - id: ware
+          uri: lb://mall-ware
+          predicates:
+            - Path=/api/ware/**
+          filters:
+            - RewritePath=/api/(?<segment>/?.*), /$\{segment}
+        - id: member
+          uri: lb://mall-member
+          predicates:
+            - Path=/api/member/**
+          filters:
+            - RewritePath=/api/(?<segment>/?.*), /$\{segment}
         - id: third_party
           uri: lb://third-party
           predicates:

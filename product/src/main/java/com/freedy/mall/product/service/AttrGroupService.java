@@ -5,6 +5,7 @@ import com.freedy.common.utils.PageUtils;
 import com.freedy.mall.product.entity.AttrGroupEntity;
 import com.freedy.mall.product.vo.AttrGroupRelationVo;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -21,5 +22,7 @@ public interface AttrGroupService extends IService<AttrGroupEntity> {
     PageUtils queryPage(Map<String, Object> params, Long catelogId);
 
     void deleteRelation(AttrGroupRelationVo[] vos);
+
+    List<AttrGroupEntity> getAttrGroupById(Long catId);
 }
 

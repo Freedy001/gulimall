@@ -1,0 +1,118 @@
+{
+  "took": 3,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 4,
+      "relation": "eq"
+    },
+    "max_score": 5.4032025,
+    "hits": [
+      {
+        "_index": "bank",
+        "_type": "_doc",
+        "_id": "970",
+        "_score": 5.4032025,
+        "_source": {
+          "account_number": 970,
+          "balance": 19648,
+          "firstname": "Forbes",
+          "lastname": "Wallace",
+          "age": 28,
+          "gender": "M",
+          "address": "990 Mill Road",
+          "employer": "Pheast",
+          "email": "forbeswallace@pheast.com",
+          "city": "Lopezo",
+          "state": "AK"
+        }
+      },
+      {
+        "_index": "bank",
+        "_type": "_doc",
+        "_id": "136",
+        "_score": 5.4032025,
+        "_source": {
+          "account_number": 136,
+          "balance": 45801,
+          "firstname": "Winnie",
+          "lastname": "Holland",
+          "age": 38,
+          "gender": "M",
+          "address": "198 Mill Lane",
+          "employer": "Neteria",
+          "email": "winnieholland@neteria.com",
+          "city": "Urie",
+          "state": "IL"
+        }
+      },
+      {
+        "_index": "bank",
+        "_type": "_doc",
+        "_id": "345",
+        "_score": 5.4032025,
+        "_source": {
+          "account_number": 345,
+          "balance": 9812,
+          "firstname": "Parker",
+          "lastname": "Hines",
+          "age": 38,
+          "gender": "M",
+          "address": "715 Mill Avenue",
+          "employer": "Baluba",
+          "email": "parkerhines@baluba.com",
+          "city": "Blackgum",
+          "state": "KY"
+        }
+      },
+      {
+        "_index": "bank",
+        "_type": "_doc",
+        "_id": "472",
+        "_score": 5.4032025,
+        "_source": {
+          "account_number": 472,
+          "balance": 25571,
+          "firstname": "Lee",
+          "lastname": "Long",
+          "age": 32,
+          "gender": "F",
+          "address": "288 Mill Street",
+          "employer": "Comverges",
+          "email": "leelong@comverges.com",
+          "city": "Movico",
+          "state": "MT"
+        }
+      }
+    ]
+  },
+  "aggregations": {
+    "lterms#ageAgg": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": 38,
+          "doc_count": 2
+        },
+        {
+          "key": 28,
+          "doc_count": 1
+        },
+        {
+          "key": 32,
+          "doc_count": 1
+        }
+      ]
+    },
+    "avg#balanceAvg": {
+      "value": 25208.0
+    }
+  }
+}

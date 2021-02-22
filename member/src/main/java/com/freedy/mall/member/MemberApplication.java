@@ -12,7 +12,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  *      申明接口的每一个方法都是调用哪个远程服务的那个请求
  */
 @EnableFeignClients(basePackages = "com.freedy.mall.member.feign")
-//@EnableDiscoveryClient
+@EnableDiscoveryClient
 @SpringBootApplication
 public class MemberApplication {
 

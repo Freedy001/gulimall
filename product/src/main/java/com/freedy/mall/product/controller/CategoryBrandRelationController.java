@@ -12,6 +12,7 @@ import com.freedy.common.utils.R;
 import com.freedy.mall.product.entity.BrandEntity;
 import com.freedy.mall.product.entity.CategoryBrandRelationEntity;
 import com.freedy.mall.product.service.CategoryBrandRelationService;
+import com.freedy.mall.product.vo.BrandVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -36,6 +37,19 @@ public class CategoryBrandRelationController {
                 new QueryWrapper<CategoryBrandRelationEntity>().eq("brand_id",brandId)
         );
         return R.ok().put("data",data);
+    }
+
+    ///product/categorybrandrelation/brands/list
+    @GetMapping("/brands/list")
+    public R relationBrandsList(@RequestParam("catId") Long catId){
+        List<BrandEntity> entities=categoryBrandRelationService.getBrandsByCatId(catId);
+        List<BrandVo> collect = entities.stream().map(item -> {
+            BrandVo brandVo = new BrandVo();
+            brandVo.setBrandId(item.getBrandId());
+            brandVo.setBrandName(item.getName());
+            return brandVo;
+        }).collect(Collectors.toList());
+        return R.ok().put("data",collect);
     }
 
 

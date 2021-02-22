@@ -3,7 +3,9 @@ package com.freedy.mall.product.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.freedy.common.utils.PageUtils;
 import com.freedy.mall.product.entity.AttrAttrgroupRelationEntity;
+import com.freedy.mall.product.vo.AttrGroupRelationVo;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -16,5 +18,6 @@ import java.util.Map;
 public interface AttrAttrgroupRelationService extends IService<AttrAttrgroupRelationEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
+
 }
 

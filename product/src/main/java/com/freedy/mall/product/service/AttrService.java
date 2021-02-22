@@ -28,5 +28,19 @@ public interface AttrService extends IService<AttrEntity> {
     void updateAttr(AttrVo attr);
 
     List<AttrEntity> getRelation(Long attrgroupId);
+    /**
+     * 获取当前分组没有关联的属性
+     * @param params
+     * @param attrgroupId
+     * @return
+     */
+    PageUtils getNoRelation(Map<String, Object> params, Long attrgroupId);
+
+    /**
+     * 在指定的所有属性集合里面,挑出检索属性
+     * @param attrId
+     * @return
+     */
+    List<Long> selectSearchAttrIds(List<Long> attrId);
 }
 

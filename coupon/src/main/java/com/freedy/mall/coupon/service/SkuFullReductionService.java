@@ -1,6 +1,7 @@
 package com.freedy.mall.coupon.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.freedy.common.to.SkuReductionTo;
 import com.freedy.common.utils.PageUtils;
 import com.freedy.mall.coupon.entity.SkuFullReductionEntity;
 
@@ -16,5 +17,7 @@ import java.util.Map;
 public interface SkuFullReductionService extends IService<SkuFullReductionEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
+
+    void saveSkuReduction(SkuReductionTo skuReductionTo);
 }
 
