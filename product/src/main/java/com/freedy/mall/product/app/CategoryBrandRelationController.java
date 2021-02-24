@@ -1,4 +1,4 @@
-package com.freedy.mall.product.controller;
+package com.freedy.mall.product.app;
 
 import java.util.Arrays;
 import java.util.List;

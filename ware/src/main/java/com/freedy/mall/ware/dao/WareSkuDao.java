@@ -16,6 +16,6 @@ import org.apache.ibatis.annotations.Select;
 @Mapper
 public interface WareSkuDao extends BaseMapper<WareSkuEntity> {
 
-    @Select("select sum(stock-stock_locked) form wms_ware_sku where sku_id=#{skuId}")
+    @Select("select sum(stock-stock_locked) from wms_ware_sku where sku_id=#{skuId}")
     Integer getStocksBySkuId(@Param("skuId") Long skuId);
 }

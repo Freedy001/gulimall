@@ -1,5 +1,6 @@
 package com.freedy.mall.product.service.impl;
 
+import com.alibaba.fastjson.TypeReference;
 import com.freedy.common.constant.ProductConstant;
 import com.freedy.common.to.SkuReductionTo;
 import com.freedy.common.to.SpuBoundTo;
@@ -251,8 +252,8 @@ public class SpuInfoServiceImpl extends ServiceImpl<SpuInfoDao, SpuInfoEntity> i
 
         Map<Long, Boolean> hasStockMap = null;
         try {
-            R<List<SkuHasStockVo>> hasStock = wareFeignService.getSkusHasStock(skuIds);
-            hasStockMap = hasStock.getData().stream().collect(Collectors.toMap(SkuHasStockVo::getSkuID, SkuHasStockVo::isHasStock));
+            R hasStock = wareFeignService.getSkusHasStock(skuIds);
+            hasStockMap = hasStock.getData(new TypeReference<List<SkuHasStockVo>>(){}).stream().collect(Collectors.toMap(SkuHasStockVo::getSkuID, SkuHasStockVo::isHasStock));
         } catch (Exception e) {
             log.error("库存服务查询异常:{}",e);
         }
@@ -276,17 +277,7 @@ public class SpuInfoServiceImpl extends ServiceImpl<SpuInfoDao, SpuInfoEntity> i
             CategoryEntity categoryEntity = categoryService.getById(sku.getCatalogId());
             skuEsModel.setCatalogName(categoryEntity.getName());
             //设置属性
-            List<SkuSaleAttrValueEntity> skuAttrs = skuSaleAttrValueService.getAttrBySkuId(sku.getSkuId());
-            List<Long> attrId1 = skuAttrs.stream().map(SkuSaleAttrValueEntity::getAttrId).collect(Collectors.toList());
-            List<Long>resultId1=attrService.selectSearchAttrIds(attrId1);
-            Set<Long> idSet1 = new HashSet<>(resultId1);
-            List<SkuEsModel.Attr> attrs2 = skuAttrs.stream().map(item -> {
-                SkuEsModel.Attr attr = new SkuEsModel.Attr();
-                BeanUtils.copyProperties(item, attr);
-                return attr;
-            }).filter(i->idSet1.contains(i.getAttrId())).collect(Collectors.toList());
-            attrs2.addAll(attrs1);
-            skuEsModel.setAttrs(attrs2);
+            skuEsModel.setAttrs(attrs1);
             return skuEsModel;
         }).collect(Collectors.toList());
         R r = searchFeignService.productStatusUp(upProduct);

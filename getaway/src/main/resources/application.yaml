@@ -2,30 +2,40 @@ spring:
   cloud:
     gateway:
       routes:
+        #前台页面
+        - id: mall_host
+          uri: lb://mall-product
+          predicates:
+            - Host=*.freedymall.com,freedymall.com
+
         - id: ware
           uri: lb://mall-ware
           predicates:
             - Path=/api/ware/**
           filters:
             - RewritePath=/api/(?<segment>/?.*), /$\{segment}
+
         - id: member
           uri: lb://mall-member
           predicates:
             - Path=/api/member/**
           filters:
             - RewritePath=/api/(?<segment>/?.*), /$\{segment}
+
         - id: third_party
           uri: lb://third-party
           predicates:
             - Path=/api/thirdparty/**
           filters:
             - RewritePath=/api/thirdparty/(?<segment>/?.*), /$\{segment}
+
         - id: product_route
           uri: lb://mall-product
           predicates:
             - Path=/api/product/**
           filters:
             - RewritePath=/api/(?<segment>/?.*), /$\{segment}
+
         - id: admin_route
           uri: lb://renren-fast
           predicates:
@@ -33,3 +43,6 @@ spring:
           filters:
             - RewritePath=/api/(?<segment>/?.*), /renren-fast/$\{segment}
 ##前端项目/API前缀
+logging:
+  level:
+    com.freedy.mall.getaway: debug

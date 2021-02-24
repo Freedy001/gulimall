@@ -1,11 +1,13 @@
 package com.freedy.mall.product.service.impl;
 
 import com.freedy.mall.product.service.CategoryBrandRelationService;
+import com.freedy.mall.product.vo.Catelog2Vo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
@@ -71,6 +73,37 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
             System.out.println(category.getCatId()+category.getName());
             categoryBrandRelationService.updateCategory(category.getCatId(),category.getName());
         }
+    }
+
+    @Override
+    public List<CategoryEntity> getLevel1Categories() {
+        List<CategoryEntity> entities = baseMapper.selectList(new QueryWrapper<CategoryEntity>().eq("parent_cid", 0));
+        return entities;
+    }
+
+    @Override
+    public Map<String, List<Catelog2Vo>> getCatelogJson() {
+        /**
+         * 将数据的多次查询变为一次
+         */
+        List<CategoryEntity> allEntity = baseMapper.selectList(null);
+        List<CategoryEntity> level1Categories = getLevel1Categories();
+        return level1Categories.stream().collect(Collectors.toMap(k -> k.getCatId().toString(), v -> {
+            List<CategoryEntity> entities = getNextLevelByCatId(allEntity,v.getCatId());
+            List<Catelog2Vo> Catelog2Vo = new ArrayList<>();
+            if (entities != null) {
+                Catelog2Vo = entities.stream().map(item -> {
+                    List<CategoryEntity> entitiesLevel3 = getNextLevelByCatId(allEntity,item.getCatId());
+                    List<Catelog2Vo.Catelog3Vo> collect = entitiesLevel3.stream().map(i -> new Catelog2Vo.Catelog3Vo(item.getCatId().toString(), i.getCatId().toString(), i.getName())).collect(Collectors.toList());
+                    return new Catelog2Vo(v.getCatId().toString(), item.getCatId().toString(), item.getName(), collect);
+                }).collect(Collectors.toList());
+            }
+            return Catelog2Vo;
+        }));
+    }
+
+    private List<CategoryEntity> getNextLevelByCatId(List<CategoryEntity> allEntity,Long catId) {
+        return allEntity.stream().filter(item -> Objects.equals(item.getParentCid(), catId)).collect(Collectors.toList());
     }
 
     private void findParentPath(Long catelogId, List<Long> path){

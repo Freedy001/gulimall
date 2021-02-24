@@ -1,4 +1,4 @@
-package com.freedy.mall.product.controller;
+package com.freedy.mall.product.app;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -7,7 +7,6 @@ import com.freedy.mall.product.vo.AttrVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import com.freedy.mall.product.entity.AttrEntity;
 import com.freedy.mall.product.service.AttrService;
 import com.freedy.common.utils.PageUtils;
 import com.freedy.common.utils.R;

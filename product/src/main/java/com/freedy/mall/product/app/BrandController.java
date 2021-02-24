@@ -1,13 +1,11 @@
-package com.freedy.mall.product.controller;
+package com.freedy.mall.product.app;
 
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.Map;
 
 import com.freedy.common.valid.AddGroup;
 import com.freedy.common.valid.UpdateGroup;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -19,8 +17,6 @@ import com.freedy.mall.product.entity.BrandEntity;
 import com.freedy.mall.product.service.BrandService;
 import com.freedy.common.utils.PageUtils;
 import com.freedy.common.utils.R;
-
-import javax.validation.Valid;
 
 
 /**
