@@ -10,11 +10,14 @@ spring:
         server-addr: 127.0.0.1:8848
   application:
     name: mall-product
-
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
   thymeleaf:
     cache: false
+  redis:
+    host: 192.168.56.10
+#    password: Kz99596589
+
 
 
 mybatis-plus:

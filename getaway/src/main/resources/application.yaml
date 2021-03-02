@@ -6,8 +6,12 @@ spring:
         - id: mall_host
           uri: lb://mall-product
           predicates:
-            - Host=*.freedymall.com,freedymall.com
-
+            - Host=freedymall.com
+        - id: mall_host
+          uri: lb://mall-search
+          predicates:
+            - Host=search.freedymall.com
+        #后台页面
         - id: ware
           uri: lb://mall-ware
           predicates:
