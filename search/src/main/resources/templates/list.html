@@ -3558,8 +3558,8 @@
         var index=$(this).parents('li').index();
         $(this).parents('li').css('border','2px solid red').siblings('li').css('border','1px solid #ccc');
         $(this).parents('ul').prev().find('img').prop('src',a);
-        $(this).parents('ul').siblings('.tab_JE').find('a').eq(index).css('display','block').siblings('a').css('display','none');
-        $(this).parents('ul').siblings('.tab_R').find('span').eq(index).css('display','block').siblings('span').css('display','none')
+        $(this).parents('ul').siblings('.tab_JE').find('a').eq(list).css('display','block').siblings('a').css('display','none');
+        $(this).parents('ul').siblings('.tab_R').find('span').eq(list).css('display','block').siblings('span').css('display','none')
     });
 
     $(".JD_ipone_one").hover(function(){

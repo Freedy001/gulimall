@@ -34,9 +34,9 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-@Slf4j
-@RunWith(SpringRunner.class)
-@SpringBootTest
+//@Slf4j
+//@RunWith(SpringRunner.class)
+//@SpringBootTest
 public class SearchApplicationTests {
 
     @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
@@ -90,6 +90,12 @@ public class SearchApplicationTests {
         System.out.println(index);
     }
 
+    @Test
+    public void test(){
+        String a="500_";
+        System.out.println(a.split("_").length);
+        System.out.println(Arrays.toString(a.split("_")));
+    }
 
     @Data
      class User{
