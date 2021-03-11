@@ -13,6 +13,8 @@ import com.freedy.mall.product.vo.AttrRespVo;
 import com.freedy.mall.product.vo.AttrVo;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
@@ -59,6 +61,7 @@ public class AttrServiceImpl extends ServiceImpl<AttrDao, AttrEntity> implements
         return new PageUtils(page);
     }
 
+    @CacheEvict(cacheNames = {"attr"},allEntries = true)
     @Override
     public void saveAttr(AttrVo attr) {
         AttrEntity attrEntity = new AttrEntity();
@@ -120,6 +123,7 @@ public class AttrServiceImpl extends ServiceImpl<AttrDao, AttrEntity> implements
         return pageUtils;
     }
 
+    @Cacheable(cacheNames={"attr"},key = "#root.method.name+#root.args[0]",sync = true)
     @Override
     public AttrVo getAttrInfo(Long attrId) {
         AttrRespVo respVo = new AttrRespVo();
@@ -146,6 +150,7 @@ public class AttrServiceImpl extends ServiceImpl<AttrDao, AttrEntity> implements
         return respVo;
     }
 
+    @CacheEvict(cacheNames = {"attr"},allEntries = true)
     @Override
     public void updateAttr(AttrVo attr) {
         AttrEntity attrEntity = new AttrEntity();
@@ -181,7 +186,6 @@ public class AttrServiceImpl extends ServiceImpl<AttrDao, AttrEntity> implements
         }
         return entities;
     }
-
 
     @Override
     public PageUtils getNoRelation(Map<String, Object> params, Long attrgroupId) {

@@ -3,6 +3,9 @@ package com.freedy.mall.member.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.freedy.common.utils.PageUtils;
 import com.freedy.mall.member.entity.MemberEntity;
+import com.freedy.mall.member.vo.MemberRegisterVo;
+import com.freedy.mall.member.vo.UserLoginVo;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.Map;
 
@@ -16,5 +19,9 @@ import java.util.Map;
 public interface MemberService extends IService<MemberEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
+
+    void register(MemberRegisterVo vo);
+
+    MemberEntity login(UserLoginVo vo);
 }
 

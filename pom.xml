@@ -20,5 +20,6 @@
         <module>getaway</module>
         <module>search</module>
         <module>third-party</module>
+        <module>auth-server</module>
     </modules>
 </project>

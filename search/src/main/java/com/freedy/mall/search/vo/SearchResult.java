@@ -3,6 +3,7 @@ package com.freedy.mall.search.vo;
 import com.freedy.common.to.es.SkuEsModel;
 import lombok.Data;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -22,6 +23,13 @@ public class SearchResult {
     private List<CatalogVo> catalogs;
     private List<AttrVo> attrs;
 
+    private List<NavVo> navs=new ArrayList<>();
+    @Data
+    public static class NavVo{
+        private String navName;
+        private String navValue;
+        private String Link;
+    }
     @Data
     public static class BrandVo{
         private Long brandId;
@@ -33,14 +41,13 @@ public class SearchResult {
     public static class CatalogVo{
         private Long catalogId;
         private String catalogName;
-        private List<String> catelogValue;
     }
 
     @Data
     public static class AttrVo{
         private Long attrId;
         private String attrName;
-        private String attrValue;
+        private List<String> attrValue;
     }
 
 

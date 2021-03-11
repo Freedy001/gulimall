@@ -24,6 +24,15 @@
         <result property="status" column="status"/>
         <result property="createTime" column="create_time"/>
     </resultMap>
+    <select id="emailCount" resultType="java.lang.Integer">
+        select count(*) from ums_member where email=#{email}
+    </select>
+    <select id="userNameCount" resultType="java.lang.Integer">
+        select count(*) from ums_member where username=#{username}
+    </select>
+    <select id="queryAccountPassword" resultType="com.freedy.mall.member.entity.MemberEntity">
+        select * from ums_member where username=#{account} or email=#{account}
+    </select>
 
 
 </mapper>

@@ -4,8 +4,12 @@ import com.freedy.mall.product.dao.AttrAttrgroupRelationDao;
 import com.freedy.mall.product.dao.CategoryDao;
 import com.freedy.mall.product.entity.AttrAttrgroupRelationEntity;
 import com.freedy.mall.product.entity.CategoryEntity;
+import com.freedy.mall.product.entity.ProductAttrValueEntity;
+import com.freedy.mall.product.service.ProductAttrValueService;
 import com.freedy.mall.product.vo.AttrGroupRelationVo;
 import com.freedy.mall.product.vo.AttrGroupRespVo;
+import com.freedy.mall.product.vo.SkuItemVo;
+import com.freedy.mall.product.vo.SpuItemAttrGroup;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -36,6 +40,9 @@ public class AttrGroupServiceImpl extends ServiceImpl<AttrGroupDao, AttrGroupEnt
 
     @Autowired
     CategoryDao categoryDao;
+
+    @Autowired
+    ProductAttrValueService productAttrValueService;
 
     @Override
     public PageUtils queryPage(Map<String, Object> params) {
@@ -88,6 +95,12 @@ public class AttrGroupServiceImpl extends ServiceImpl<AttrGroupDao, AttrGroupEnt
     @Override
     public List<AttrGroupEntity> getAttrGroupById(Long catId) {
         return this.baseMapper.selectList(new QueryWrapper<AttrGroupEntity>().eq("catelog_id", catId));
+    }
+
+
+    @Override
+    public List<SpuItemAttrGroup> getAttrGroupWithAttrsBySpuIdAndCatalogId(Long spuId, Long catalogId) {
+        return baseMapper.getAttrGroupWithAttrsBySpuIdAndCatalogId(spuId,catalogId);
     }
 
 }

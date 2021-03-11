@@ -36,4 +36,6 @@ public class SearchParam {
     private List<Long> brandId;
     private List<String> attrs;
     private Integer pageNum=1;
+
+    private String queryString;
 }

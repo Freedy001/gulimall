@@ -12,6 +12,29 @@
         <result property="icon" column="icon"/>
         <result property="catelogId" column="catelog_id"/>
     </resultMap>
+        <!--只要有自定义属性就要封装自定义结果集-->
+    <resultMap id="SpuItemAttrGroupVo"
+               type="com.freedy.mall.product.vo.SpuItemAttrGroup">
+        <result property="groupName" column="attr_group_name"/>
+        <collection property="attrs" ofType="com.freedy.mall.product.vo.SkuBaseAttrVo">
+            <result property="attrName" column="attr_name"/>
+            <result property="attrValues" column="attr_value"/>
+        </collection>
+    </resultMap>
+    <select id="getAttrGroupWithAttrsBySpuIdAndCatalogId"
+            resultMap="SpuItemAttrGroupVo">
+        select pav.spu_id,
+               ag.attr_group_name,
+               ag.attr_group_id,
+               aar.attr_id,
+               attr.attr_name,
+               pav.attr_value
+        from pms_attr_group ag
+        left join pms_attr_attrgroup_relation aar on ag.attr_group_id = aar.attr_group_id
+        left join pms_attr attr on aar.attr_id = attr.attr_id
+        LEFT JOIN pms_product_attr_value pav on aar.attr_id = pav.attr_id
+        where ag.catelog_id=#{catalogId} and spu_id=#{spuId}
+    </select>
 
 
 </mapper>

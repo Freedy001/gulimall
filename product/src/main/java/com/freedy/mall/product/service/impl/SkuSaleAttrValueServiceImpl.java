@@ -1,5 +1,6 @@
 package com.freedy.mall.product.service.impl;
 
+import com.freedy.mall.product.vo.SkuItemSaleAttrVo;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -31,6 +32,11 @@ public class SkuSaleAttrValueServiceImpl extends ServiceImpl<SkuSaleAttrValueDao
     @Override
     public List<SkuSaleAttrValueEntity> getAttrBySkuId(Long skuId) {
         return this.list(new QueryWrapper<SkuSaleAttrValueEntity>().eq("sku_id",skuId));
+    }
+
+    @Override
+    public List<SkuItemSaleAttrVo> getSaleAttrsBySpuId(Long spuId) {
+        return baseMapper.getSaleAttrsBySpuId(spuId);
     }
 
 }

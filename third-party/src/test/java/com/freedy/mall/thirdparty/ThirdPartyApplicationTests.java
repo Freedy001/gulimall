@@ -1,6 +1,8 @@
 package com.freedy.mall.thirdparty;
 
 import com.aliyun.oss.OSSClient;
+import com.freedy.mall.thirdparty.component.EmailAuth;
+import org.apache.commons.mail.EmailException;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +20,9 @@ public class ThirdPartyApplicationTests {
     @Autowired
     OSSClient ossClient;
 
+    @Autowired
+    EmailAuth emailAuth;
+
     @Test
     public void testUpload() throws FileNotFoundException {
         // 上传文件流。
@@ -26,6 +31,11 @@ public class ThirdPartyApplicationTests {
         // 关闭OSSClient。
         ossClient.shutdown();
         System.out.println("上传成功");
+    }
+
+    @Test
+    public void testSendEmailCode() throws  EmailException {
+        emailAuth.sendMsg("985948228@qq.com","ZXGFR");
     }
 
 }

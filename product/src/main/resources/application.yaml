@@ -17,6 +17,11 @@ spring:
   redis:
     host: 192.168.56.10
 #    password: Kz99596589
+freedymall:
+  thread:
+    core-size: 50
+    max-size: 200
+    keep-alive-time: 10
 
 
 

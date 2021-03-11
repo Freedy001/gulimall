@@ -13,5 +13,26 @@
         <result property="attrSort" column="attr_sort"/>
     </resultMap>
 
+    <resultMap id="SkuItemSaleAttrVo" type="com.freedy.mall.product.vo.SkuItemSaleAttrVo">
+        <result column="attr_id" property="attrId" />
+        <result column="attr_name" property="attrName" />
+        <collection property="attrValues" ofType="com.freedy.mall.product.vo.AttrValuesWithSkuId">
+            <result column="attr_value" property="attrValue" />
+            <result column="sku_ids" property="skuIds" />
+        </collection>
+
+    </resultMap>
+    
+    <select id="getSaleAttrsBySpuId" resultMap="SkuItemSaleAttrVo">
+        select sale_val.attr_id,
+               sale_val.attr_name,
+               sale_val.attr_value,
+               group_concat(distinct info.sku_id) sku_ids
+        from pms_sku_info info
+        left join pms_sku_sale_attr_value sale_val on info.sku_id = sale_val.sku_id
+        where spu_id=#{spuId}
+        group by sale_val.attr_id,sale_val.attr_name,sale_val.attr_value
+    </select>
+
 
 </mapper>

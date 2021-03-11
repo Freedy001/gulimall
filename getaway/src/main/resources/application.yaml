@@ -3,14 +3,18 @@ spring:
     gateway:
       routes:
         #前台页面
-        - id: mall_host
+        - id: freedymall
           uri: lb://mall-product
           predicates:
-            - Host=freedymall.com
-        - id: mall_host
+            - Host=freedymall.com,item.freedymall.com
+        - id: search
           uri: lb://mall-search
           predicates:
             - Host=search.freedymall.com
+        - id: auth
+          uri: lb://mall-auth-server
+          predicates:
+            - Host=auth.freedymall.com
         #后台页面
         - id: ware
           uri: lb://mall-ware
