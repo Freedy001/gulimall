@@ -6,4 +6,5 @@ package com.freedy.common.constant;
  */
 public class AuthServeConstant {
     public static final String EMAIL_CODE_CACHE_PREFIX="email:code:";
+    public static final String LOGIN_USER="data";
 }

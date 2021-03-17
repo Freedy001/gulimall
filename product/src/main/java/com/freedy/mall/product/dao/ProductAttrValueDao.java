@@ -3,6 +3,9 @@ package com.freedy.mall.product.dao;
 import com.freedy.mall.product.entity.ProductAttrValueEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 /**
  * spu属性值
@@ -13,5 +16,6 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface ProductAttrValueDao extends BaseMapper<ProductAttrValueEntity> {
-	
+
+    List<String> getSkuSaleAttrValuesAsStringList(@Param("skuId") String skuId);
 }

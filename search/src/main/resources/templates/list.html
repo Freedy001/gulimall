@@ -96,10 +96,13 @@
     </b>
     <ul>
       <li>
-        <a href="/static/search/#" class="li_2">你好，请登录</a>
+        <a href="/static/search/#" class="li_2" th:if="${session.data==null}">你好，请登录</a>
       </li>
       <li>
-        <a href="/static/search/#">免费注册</a>
+        <a href="/static/search/#" class="li_2" th:if="${session.data!=null}">欢迎:[[${session.data.username}]]</a>
+      </li>
+      <li>
+        <a href="/static/search/#"  th:if="${session.data==null}" >免费注册</a>
       </li>
       <span>|</span>
       <li>

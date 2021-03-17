@@ -15,6 +15,10 @@ spring:
           uri: lb://mall-auth-server
           predicates:
             - Host=auth.freedymall.com
+        - id: cart
+          uri: lb://mall-cart
+          predicates:
+            - Host=cart.freedymall.com
         #后台页面
         - id: ware
           uri: lb://mall-ware

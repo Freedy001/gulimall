@@ -1,5 +1,6 @@
 package com.freedy.authserver.feign;
 
+import com.freedy.authserver.vo.SocialUser;
 import com.freedy.authserver.vo.UserLoginVo;
 import com.freedy.authserver.vo.UserRegisterVo;
 import com.freedy.common.utils.R;
@@ -18,4 +19,7 @@ public interface MemberFeignService {
 
     @PostMapping("/member/member/login")
     R login(@RequestBody UserLoginVo vo);
+
+    @PostMapping("/member/member/oauth2/login")
+    R oauth2Login(@RequestBody SocialUser vo);
 }

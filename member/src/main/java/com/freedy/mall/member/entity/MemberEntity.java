@@ -93,4 +93,9 @@ public class MemberEntity implements Serializable {
 	 */
 	private Date createTime;
 
+	private String accessToken;
+
+	private int expiresIn;
+
+	private String refreshToken;
 }

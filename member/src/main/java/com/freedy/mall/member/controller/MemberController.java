@@ -9,6 +9,7 @@ import com.freedy.mall.member.exception.EmailExitException;
 import com.freedy.mall.member.exception.UserNameExitException;
 import com.freedy.mall.member.feign.CouponFeignService;
 import com.freedy.mall.member.vo.MemberRegisterVo;
+import com.freedy.mall.member.vo.SocialUser;
 import com.freedy.mall.member.vo.UserLoginVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -57,6 +58,19 @@ public class MemberController {
         return R.ok().setData(login);
     }
 
+    @PostMapping("/oauth2/login")
+    public R oauth2Login(@RequestBody SocialUser vo){
+        MemberEntity login;
+        try {
+            login = memberService.login(vo);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return R.error();
+        }
+        return R.ok().setData(login);
+    }
+
+
     @RequestMapping("/coupons")
     public R test() {
         MemberEntity memberEntity = new MemberEntity();
@@ -72,7 +86,6 @@ public class MemberController {
     //@RequiresPermissions("member:member:list")
     public R list(@RequestParam Map<String, Object> params) {
         PageUtils page = memberService.queryPage(params);
-
         return R.ok().put("page", page);
     }
 

@@ -94,10 +94,11 @@
   					</b>
         <ul>
           <li>
-            <a href="http://auth.freedymall.com/login">你好，请登录</a>
+            <a href="http://auth.freedymall.com/login" th:if="${session.data==null}">你好，请登录</a>
+            <a href="javascript:void(0)" th:if="${session.data!=null}">欢迎:[[${session.data.username}]]</a>
           </li>
           <li>
-            <a href="http://auth.freedymall.com/reg" class="li_2">免费注册</a>
+            <a href="http://auth.freedymall.com/reg" class="li_2" th:if="${session.data==null}">免费注册</a>
           </li>
           <span>|</span>
           <li>
@@ -119,7 +120,7 @@
       <div class="header_ico">
         <div class="header_gw">
           <img src="/static/index/img/img_15.png" />
-          <span><a href="/购物车\One_JDshop.html">我的购物车</a></span>
+          <span><a href="http://cart.freedymall.com/cart">我的购物车</a></span>
           <span>0</span>
         </div>
         <div class="header_ko">

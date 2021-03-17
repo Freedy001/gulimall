@@ -57,10 +57,11 @@
         </li>
       </ul>
       <ul class="header_ul_right">
-        <li style="border: 0;"><a href="/static/item/../登录页面\index.html" class="aa">你好，请登录</a></li>
-        <li><a href="/static/item/../注册页面\index.html" style="color: red;">免费注册</a> |</li>
-        <li><a href="/static/item/javascript:;" class="aa">我的订单</a> |</li>
-        <li class="jingdong"><a href="/static/item/javascript:;">我的京东</a><span
+        <li style="border: 0;"><a href="http://auth.freedymall.com/login" th:if="${session.data==null}" class="aa">你好，请登录</a></li>
+        <li><a href="http://auth.freedymall.com/reg" style="color: red;" th:if="${session.data==null}">免费注册</a> |</li>
+        <li><a href="javascript:void(0)" style="color: red;" th:if="${session.data!=null}">欢迎:[[${session.data.username}]]</a></li>
+        <li><a href="javascript:void(0)" class="aa">我的订单</a> |</li>
+        <li class="jingdong"><a href="/static/item/javascript:;">我的京东</a><span>
             class="glyphicon glyphicon-menu-down">|</span>
           <ol class="jingdong_ol">
             <li><a href="/static/item/javascript:;">待处理订单</a></li>
@@ -255,7 +256,7 @@
   <nav>
     <div class="nav_min">
       <div class="nav_top">
-        <div class="nav_top_one"><a href="/static/item/#"><img src="/static/item/img/111.png"/></a></div>
+        <div class="nav_top_one"><a href="http://freedymall.com/"><img src="/static/item/img/111.png"/></a></div>
         <div class="nav_top_two"><input type="text"/>
           <button>搜索</button>
         </div>
@@ -615,7 +616,7 @@
 
         <div class="box-btns clear">
           <div class="box-btns-one">
-            <input type="text" name="" id="" value="1"/>
+            <input type="text" name="" id="numInput" value="1"/>
             <div class="box-btns-one1">
 
               <div>
@@ -632,8 +633,8 @@
             </div>
           </div>
           <div class="box-btns-two">
-            <a href="/static/item/../商品分类\index.html">
-              立即预约
+            <a href="#" id="addToCart" th:attr="skuId=${item.info.skuId}">
+              加入购物车
             </a>
           </div>
           <div class="box-btns-three">
@@ -1331,5 +1332,9 @@
     }
     return false;
   }
+
+  $("#addToCart").click(function () {
+      location.href=`http://cart.freedymall.com/addToCart?skuId=${$(this).attr("skuId")}&num=${$("#numInput").val()}`
+  })
 </script>
 </html>

@@ -33,5 +33,10 @@ public class ProductAttrValueServiceImpl extends ServiceImpl<ProductAttrValueDao
         return this.list(new QueryWrapper<ProductAttrValueEntity>().eq("spu_id",supId));
     }
 
+    @Override
+    public List<String> getSkuSaleAttrValuesAsStringList(String skuId) {
+        return baseMapper.getSkuSaleAttrValuesAsStringList(skuId);
+    }
+
 
 }

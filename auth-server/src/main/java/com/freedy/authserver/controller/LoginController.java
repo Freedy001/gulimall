@@ -1,16 +1,15 @@
 package com.freedy.authserver.controller;
 
-import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
 import com.freedy.authserver.feign.MemberFeignService;
 import com.freedy.authserver.service.LoginService;
+import com.freedy.common.constant.AuthServeConstant;
+import com.freedy.common.to.MemberEntity;
 import com.freedy.authserver.vo.UserLoginVo;
 import com.freedy.authserver.vo.UserRegisterVo;
-import com.freedy.common.utils.JsonBeautify;
 import com.freedy.common.utils.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.util.StringUtils;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
@@ -20,6 +19,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 import java.util.HashMap;
 import java.util.Map;
@@ -73,11 +73,22 @@ public class LoginController {
         return "redirect:http://auth.freedymall.com/login";
     }
 
+    @GetMapping("/login")
+    public String loginPage(HttpSession session){
+        Object attribute = session.getAttribute(AuthServeConstant.LOGIN_USER);
+        if (attribute==null){
+            return "login";
+        }else {
+            return "redirect:http://freedymall.com/";
+        }
+    }
+
     @PostMapping("/account/login")
-    public String login(UserLoginVo vo,RedirectAttributes model){
+    public String login(UserLoginVo vo, RedirectAttributes model, HttpSession session){
         R login = memberFeignService.login(vo);
         if (login.getCode()==0){
-
+            MemberEntity data = login.getData(new TypeReference<MemberEntity>(){});
+            session.setAttribute(AuthServeConstant.LOGIN_USER,data);
             return "redirect:http://freedymall.com/";
         }else {
             model.addFlashAttribute("error",login.getData("msg",new TypeReference<String>(){}));
