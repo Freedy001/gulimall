@@ -19,6 +19,10 @@ spring:
           uri: lb://mall-cart
           predicates:
             - Host=cart.freedymall.com
+        - id: cart
+          uri: lb://mall-order
+          predicates:
+            - Host=order.freedymall.com
         #后台页面
         - id: ware
           uri: lb://mall-ware

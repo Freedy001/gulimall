@@ -1,8 +1,8 @@
 spring:
   datasource:
-    username: root
+    username: freedy
     password: Kz99596589
-    url: jdbc:mysql://42.194.140.189:3306/mall_ums?serverTimezone=UTC
+    url: jdbc:mysql://freedyamazing.rwlb.rds.aliyuncs.com:3306/mall_ums?serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
   cloud:
     nacos:

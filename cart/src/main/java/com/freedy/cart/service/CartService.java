@@ -3,6 +3,7 @@ package com.freedy.cart.service;
 import com.freedy.cart.vo.Cart;
 import com.freedy.cart.vo.CartItem;
 
+import java.util.List;
 import java.util.concurrent.ExecutionException;
 
 /**
@@ -36,4 +37,6 @@ public interface CartService {
     void changeCount(Long skuId, Integer num);
 
     void delItem(Long skuId);
+
+    List<CartItem> getUserCartItem();
 }

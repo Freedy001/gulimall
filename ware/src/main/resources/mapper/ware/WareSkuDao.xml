@@ -3,7 +3,7 @@
 
 <mapper namespace="com.freedy.mall.ware.dao.WareSkuDao">
 
-	<!-- 可根据自己的需求，是否要使用 -->
+    <!-- 可根据自己的需求，是否要使用 -->
     <resultMap type="com.freedy.mall.ware.entity.WareSkuEntity" id="wareSkuMap">
         <result property="id" column="id"/>
         <result property="skuId" column="sku_id"/>
@@ -12,6 +12,37 @@
         <result property="skuName" column="sku_name"/>
         <result property="stockLocked" column="stock_locked"/>
     </resultMap>
+    <update id="lockSkuStock">
+        update wms_ware_sku
+        set stock_locked=stock_locked + #{count}
+        where sku_id = #{skuId}
+          and ware_id = #{wareId}
+          and stock - wms_ware_sku.stock_locked >= #{count}
+    </update>
+
+    <update id="lockSkuStockAuto">
+        update wms_ware_sku
+        set stock_locked=stock_locked + #{count}
+        where sku_id = #{skuId}
+          and ware_id = (
+            select a.ware_id
+            from (
+                     select ware_id
+                     from wms_ware_sku
+                     where sku_id = #{skuId}
+                       and stock - wms_ware_sku.stock_locked >= #{count} limit 0,1
+                 ) a
+            limit 0,1
+        )
+    </update>
+
+
+    <select id="listWareIdWhitchHasSkuStock" resultType="java.lang.Long">
+        select ware_id
+        from wms_ware_sku
+        where sku_id = #{skuId}
+          and stock - wms_ware_sku.stock_locked > 0
+    </select>
 
 
 </mapper>

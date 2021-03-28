@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.freedy.common.utils.PageUtils;
 import com.freedy.mall.ware.entity.WareSkuEntity;
 import com.freedy.mall.ware.vo.SkuHasStockVo;
+import com.freedy.mall.ware.vo.WareSkuLockVo;
 
 import java.util.List;
 import java.util.Map;
@@ -22,5 +23,15 @@ public interface WareSkuService extends IService<WareSkuEntity> {
     void addStock(Long skuId, Long wareId, Integer skuNum);
 
     List<SkuHasStockVo> getSkusHasStock(List<Long> skuIds);
+
+    /**
+     * 为某个订单锁定库存
+     * @return
+     */
+    boolean orderLockStock(WareSkuLockVo vo);
+
+    boolean orderLockStockAuto(WareSkuLockVo vo);
+
+    void releaseLockStock();
 }
 

@@ -60,7 +60,7 @@
         <li style="border: 0;"><a href="http://auth.freedymall.com/login" th:if="${session.data==null}" class="aa">你好，请登录</a></li>
         <li><a href="http://auth.freedymall.com/reg" style="color: red;" th:if="${session.data==null}">免费注册</a> |</li>
         <li><a href="javascript:void(0)" style="color: red;" th:if="${session.data!=null}">欢迎:[[${session.data.username}]]</a></li>
-        <li><a href="javascript:void(0)" class="aa">我的订单</a> |</li>
+        <li><a href="http://order.freedymall.com/list.html" class="aa">我的订单</a> |</li>
         <li class="jingdong"><a href="/static/item/javascript:;">我的京东</a><span>
             class="glyphicon glyphicon-menu-down">|</span>
           <ol class="jingdong_ol">
@@ -260,7 +260,7 @@
         <div class="nav_top_two"><input type="text"/>
           <button>搜索</button>
         </div>
-        <div class="nav_top_three"><a href="/static/item/../JD_Shop/One_JDshop.html">我的购物车</a><span
+        <div class="nav_top_three"><a href="http://cart.freedymall.com/cart">我的购物车</a><span
             class="glyphicon glyphicon-shopping-cart"></span>
           <div class="nav_top_three_1">
             <img src="/static/item/img/44.png"/>购物车还没有商品，赶紧选购吧！

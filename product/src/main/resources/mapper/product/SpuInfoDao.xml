@@ -15,6 +15,10 @@
         <result property="createTime" column="create_time"/>
         <result property="updateTime" column="update_time"/>
     </resultMap>
+    <select id="getSpuInfoBySkuId" resultType="com.freedy.mall.product.entity.SpuInfoEntity">
+        select * from pms_spu_info
+        where id= (select spu_id from pms_sku_info where sku_id=#{skuId})
+    </select>
 
 
 </mapper>

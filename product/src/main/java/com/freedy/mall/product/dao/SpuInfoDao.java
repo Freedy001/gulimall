@@ -17,4 +17,6 @@ import org.apache.ibatis.annotations.Update;
 public interface SpuInfoDao extends BaseMapper<SpuInfoEntity> {
     @Update("update pms_spu_info set publish_status=#{code},update_time=NOW() where id=#{spuId}")
     void updateSpuPublishStatus(@Param("spuId") Long spuId, @Param("code") int code);
+
+    SpuInfoEntity getSpuInfoBySkuId(@Param("skuId") Long skuId);
 }

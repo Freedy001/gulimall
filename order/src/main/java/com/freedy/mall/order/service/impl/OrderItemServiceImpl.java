@@ -1,7 +1,14 @@
 package com.freedy.mall.order.service.impl;
 
+import com.freedy.mall.order.entity.OrderReturnReasonEntity;
+import com.rabbitmq.client.Channel;
+import org.springframework.amqp.core.Message;
+import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Service;
+
+import java.io.IOException;
 import java.util.Map;
+
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -20,7 +27,7 @@ public class OrderItemServiceImpl extends ServiceImpl<OrderItemDao, OrderItemEnt
     public PageUtils queryPage(Map<String, Object> params) {
         IPage<OrderItemEntity> page = this.page(
                 new Query<OrderItemEntity>().getPage(params),
-                new QueryWrapper<OrderItemEntity>()
+                new QueryWrapper<>()
         );
 
         return new PageUtils(page);

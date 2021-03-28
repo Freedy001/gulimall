@@ -17,6 +17,7 @@ package com.freedy.common.Exception;
  *      001:用户存在
  *      002:邮箱存在
  *      003：账号密码错误
+ * 21:库存
  */
 public enum BizCodeEnum {
     UNKNOWN_EXCEPTION(10000,"系统未知异常"),
@@ -26,7 +27,8 @@ public enum BizCodeEnum {
     EMAIL_CODE_NULL_EXCEPTION(10003,"邮箱不能为空！"),
     USER_EXIT_EXCEPTION(15001,"用户存在!"),
     EMAIL_EXIT_EXCEPTION(15002,"邮箱存在!"),
-    LOGIN_ACCOUNT_OR_PASSWORD_EXCEPTION(15003,"账号密码错误!");
+    LOGIN_ACCOUNT_OR_PASSWORD_EXCEPTION(15003,"账号密码错误!"),
+    NO_STOCK_EXCEPTION(21001,"商品库存不足");
 
     private Integer code;
     private String msg;

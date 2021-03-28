@@ -13,6 +13,7 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
 import java.util.Arrays;
 
 
+
 @EnableRedisHttpSession
 @EnableFeignClients(basePackages = "com.freedy.mall.product.feign")
 @EnableDiscoveryClient
