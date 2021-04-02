@@ -118,7 +118,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
 
     /**
      * 使用redisson实现分布式锁
-     *
      * @return
      */
     private Map<String, List<Catelog2Vo>> getCatelogJsonWithRedissonLock() {
@@ -145,7 +144,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
 
     /**
      * 手动实现redis分布式锁
-     *
      * @return
      */
     private Map<String, List<Catelog2Vo>> getCatelogJsonWithRedisLock() {
@@ -209,7 +207,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
 
     /**
      * 从数据库查询并封装分类业务
-     *
      * @return
      */
     private Map<String, List<Catelog2Vo>> getCatelogJsonFromDb() {

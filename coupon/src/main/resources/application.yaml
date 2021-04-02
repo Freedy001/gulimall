@@ -1,22 +1,22 @@
-#spring:
-#  datasource:
-#    username: root
-#    password: Kz99596589
-#    url: jdbc:mysql://42.194.140.189:3306/mall_sms?serverTimezone=UTC
-#    driver-class-name: com.mysql.cj.jdbc.Driver
-#  cloud:
-#   nacos:
-#     discovery:
-#       server-addr: 127.0.0.1:8848
-#  application:
-#    name: mall-coupon
-#
-#
-#mybatis-plus:
-#  mapper-locations: classpath:/mapper/**/*.xml
-#  global-config:
-#    db-config:
-#      id-type: auto
-#
-#server:
-#  port: 7000
+spring:
+  datasource:
+    username: freedy
+    password: Kz99596589
+    url: jdbc:mysql://freedyamazing.rwlb.rds.aliyuncs.com:3306/mall_sms?serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+   nacos:
+     discovery:
+       server-addr: 127.0.0.1:8848
+  application:
+    name: mall-coupon
+
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+
+server:
+  port: 7000

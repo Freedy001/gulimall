@@ -2,7 +2,9 @@ package com.freedy.mall.order.dao;
 
 import com.freedy.mall.order.entity.OrderEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.freedy.mall.order.enume.OrderStatusEnum;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * 订单
@@ -13,5 +15,10 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface OrderDao extends BaseMapper<OrderEntity> {
-	
+
+    void updateStatus(@Param("id") Long id, @Param("code") Integer code);
+
+    void updateStatusByOrderSn(@Param("out_trade_no") String out_trade_no,
+                               @Param("code") Integer code);
+
 }

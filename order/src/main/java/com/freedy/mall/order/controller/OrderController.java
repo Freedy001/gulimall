@@ -4,11 +4,7 @@ import java.util.Arrays;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.freedy.mall.order.entity.OrderEntity;
 import com.freedy.mall.order.service.OrderService;
@@ -29,6 +25,18 @@ import com.freedy.common.utils.R;
 public class OrderController {
     @Autowired
     private OrderService orderService;
+
+    @PostMapping("/listWithItem")
+    public R listWithItem(@RequestBody Map<String, Object> params){
+        PageUtils page = orderService.queryPageWithItem(params);
+        return R.ok().setData(page);
+    }
+
+    @GetMapping("/status/{orderSn}")
+    public R getOrderStatus(@PathVariable String orderSn){
+        OrderEntity entity=orderService.getOrderByOrderSn(orderSn);
+        return R.ok().setData(entity);
+    }
 
     /**
      * 列表

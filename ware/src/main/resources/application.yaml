@@ -20,7 +20,7 @@ mybatis-plus:
       id-type: auto
 
 server:
-  port: 11000
+  port: 11100
 
 logging:
   level:

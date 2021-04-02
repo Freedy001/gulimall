@@ -1,5 +1,6 @@
 package com.freedy.mall.product.vo;
 
+import com.freedy.common.to.SeckillSkuRedisTo;
 import com.freedy.mall.product.entity.SkuImagesEntity;
 import com.freedy.mall.product.entity.SkuInfoEntity;
 import com.freedy.mall.product.entity.SpuInfoDescEntity;
@@ -25,4 +26,6 @@ public class SkuItemVo {
     SpuInfoDescEntity desc;
     //获取spu的规格参数信息
     List<SpuItemAttrGroup> groupAttrs;
+
+    SeckillSkuRedisTo seckillSkuInfo;
 }

@@ -48,6 +48,14 @@
         <result property="commentTime" column="comment_time"/>
         <result property="modifyTime" column="modify_time"/>
     </resultMap>
+    <update id="updateStatus">
+        update oms_order set status=#{code}
+        where id=#{id}
+    </update>
+    <update id="updateStatusByOrderSn">
+        update oms_order set status=#{code}
+        where order_sn=#{out_trade_no}
+    </update>
 
 
 </mapper>

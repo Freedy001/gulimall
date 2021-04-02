@@ -38,6 +38,7 @@ public class RabbitConfig {
         });
         template.setReturnCallback((Message message, int replyCode, String replyText,
                                     String exchange, String routingKey) -> {
+            //只要报错才会触发回调
             System.out.println(message);
             System.out.println(replyCode);
             System.out.println(replyText);

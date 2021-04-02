@@ -89,6 +89,7 @@ public class LoginController {
         if (login.getCode()==0){
             MemberEntity data = login.getData(new TypeReference<MemberEntity>(){});
             session.setAttribute(AuthServeConstant.LOGIN_USER,data);
+            session.setMaxInactiveInterval(60 * 60 * 24);
             return "redirect:http://freedymall.com/";
         }else {
             model.addFlashAttribute("error",login.getData("msg",new TypeReference<String>(){}));

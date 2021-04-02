@@ -1,13 +1,10 @@
 package com.freedy.mall.order.config;
 
-import com.freedy.mall.order.entity.OrderEntity;
-import com.rabbitmq.client.Channel;
+
 import org.springframework.amqp.core.*;
-import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -61,5 +58,29 @@ public class MQConfig {
                 "order.release.order", null);
     }
 
+    /**
+     *订单释放直接和库存释放进行绑定
+     */
+    @Bean
+    public Binding orderReleaseOtherBinding(){
+        return new Binding("stock.release.stock.queue",
+                Binding.DestinationType.QUEUE,
+                "order-event-exchange",
+                "order.release.other.#", null);
+    }
+
+    @Bean
+    public Queue orderSecKillOrderQueue(){
+        return new Queue("order.seckill.order.queue",
+                true, false, false);
+    }
+
+    @Bean
+    public Binding orderSeckillOrder(){
+        return new Binding("order.seckill.order.queue",
+                Binding.DestinationType.QUEUE,
+                "order-event-exchange",
+                "order.seckill.order", null);
+    }
 
 }

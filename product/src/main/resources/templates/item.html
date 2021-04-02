@@ -494,13 +494,16 @@
           <div class="yuyue-two">
             <ul>
               <li>
+                <span th:if="${item.seckillSkuInfo!=null&&item.seckillSkuInfo.randomCode!=null}" >当前商品正在秒杀!!!</span>
+                <span th:if="${item.seckillSkuInfo!=null&&item.seckillSkuInfo.randomCode==null}" >该商品即将开始秒杀!!!</span>
+              </li>
+              <li>
                 <img src="/static/item/img/f64963b63d6e5849977ddd6afddc1db5.png"/>
                 <span>190103</span> 人预约
               </li>
               <li>
                 <img src="/static/item/img/36860afb69afa241beeb33ae86678093.png"/> 预约剩余
                 <span id="timer">
-
 									</span>
               </li>
             </ul>
@@ -513,13 +516,16 @@
               <span>￥</span>
               <span th:text="${#numbers.formatDecimal(item.info.price,3,2)}">4499.00</span>
             </li>
-            <li>
-              预约享资格
+            <li style="color:red" th:if="${item.seckillSkuInfo!=null}">
+              <span>秒杀价格￥</span>
+              <span style="font-weight: bolder;font-size: 30px;color:#F2D934">[[${item.seckillSkuInfo.seckillPrice}]]</span>
             </li>
-            <li>
-              <a href="/static/item/">
-                预约说明
-              </a>
+            <li th:if="${item.seckillSkuInfo==null}">
+              <span>特惠</span>
+            </li>
+            <li style="color: red;" th:if="${item.seckillSkuInfo!=null}">
+              秒杀时间:[[${#dates.format(new java.util.Date(item.seckillSkuInfo.startTime),"yyyy-MM-dd HH:mm:ss")}]]
+              ————[[${#dates.format(new java.util.Date(item.seckillSkuInfo.endTime),"yyyy-MM-dd HH:mm:ss")}]]
             </li>
           </ul>
         </div>
@@ -632,9 +638,14 @@
 
             </div>
           </div>
-          <div class="box-btns-two">
+          <div class="box-btns-two" th:if="${item.seckillSkuInfo==null}">
             <a href="#" id="addToCart" th:attr="skuId=${item.info.skuId}">
               加入购物车
+            </a>
+          </div>
+          <div class="box-btns-two" th:if="${item.seckillSkuInfo!=null&&item.seckillSkuInfo.randomCode!=null}">
+            <a href="#" id="seckill" th:attr="skuId=${item.info.skuId},sessionId=${item.seckillSkuInfo.promotionSessionId},code=${item.seckillSkuInfo.randomCode}">
+              立即抢购
             </a>
           </div>
           <div class="box-btns-three">
@@ -1335,6 +1346,11 @@
 
   $("#addToCart").click(function () {
       location.href=`http://cart.freedymall.com/addToCart?skuId=${$(this).attr("skuId")}&num=${$("#numInput").val()}`
+  })
+
+  $("#seckill").click(function () {
+    location.href=`http://seckill.freedymall.com/kill?killId=${$(this).attr("sessionId")}_${$(this).attr("skuId")}&key=${$(this).attr("code")}&num=${$("#numInput").val()}`
+    return false;
   })
 </script>
 </html>

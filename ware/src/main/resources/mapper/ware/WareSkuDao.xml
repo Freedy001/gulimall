@@ -36,6 +36,11 @@
         )
     </update>
 
+    <update id="unLockStock">
+        update wms_ware_sku set stock_locked=stock_locked - #{skuNum}
+        where sku_id=#{skuId} and ware_id=#{wareId}
+    </update>
+
 
     <select id="listWareIdWhitchHasSkuStock" resultType="java.lang.Long">
         select ware_id

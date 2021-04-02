@@ -13,6 +13,10 @@
         <result property="wareId" column="ware_id"/>
         <result property="lockStatus" column="lock_status"/>
     </resultMap>
+    <update id="updateLockStatus">
+        update wms_ware_order_task_detail set lock_status=2
+        where id=#{taskId}
+    </update>
 
 
 </mapper>

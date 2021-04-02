@@ -3,6 +3,7 @@ package com.freedy.mall.ware.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.freedy.common.utils.PageUtils;
 import com.freedy.mall.ware.entity.WareOrderTaskEntity;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.Map;
 

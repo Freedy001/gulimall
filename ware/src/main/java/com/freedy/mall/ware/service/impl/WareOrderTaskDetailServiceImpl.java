@@ -26,4 +26,9 @@ public class WareOrderTaskDetailServiceImpl extends ServiceImpl<WareOrderTaskDet
         return new PageUtils(page);
     }
 
+    @Override
+    public void updateLockStatus(Long taskId) {
+        baseMapper.updateLockStatus(taskId);
+    }
+
 }

@@ -1,8 +1,12 @@
 package com.freedy.mall.product.service.impl;
 
+import com.alibaba.fastjson.TypeReference;
+import com.freedy.common.to.SeckillSkuRedisTo;
+import com.freedy.common.utils.R;
 import com.freedy.mall.product.entity.SkuImagesEntity;
 import com.freedy.mall.product.entity.SpuInfoDescEntity;
 import com.freedy.mall.product.entity.SpuInfoEntity;
+import com.freedy.mall.product.feign.SecKillFeignService;
 import com.freedy.mall.product.service.*;
 import com.freedy.mall.product.vo.SkuItemSaleAttrVo;
 import com.freedy.mall.product.vo.SkuItemVo;
@@ -44,6 +48,9 @@ public class SkuInfoServiceImpl extends ServiceImpl<SkuInfoDao, SkuInfoEntity> i
 
     @Autowired
     ThreadPoolExecutor poolExecutor;
+
+    @Autowired
+    SecKillFeignService secKillFeignService;
 
     @Override
     public PageUtils queryPage(Map<String, Object> params) {
@@ -139,8 +146,23 @@ public class SkuInfoServiceImpl extends ServiceImpl<SkuInfoDao, SkuInfoEntity> i
         //sku的图片信息
         CompletableFuture<Void> future2 = CompletableFuture.supplyAsync(() -> imagesService.getImageBySkuId(skuId)
                 , poolExecutor).thenAccept(skuItemVo::setImages);
+        //查询当前sku是否参与秒杀
+        CompletableFuture<Void> future3 = CompletableFuture.runAsync(() -> {
+            R info = secKillFeignService.getSkuSecKillInfo(skuId);
+            List<SeckillSkuRedisTo> data = info.getData(new TypeReference<List<SeckillSkuRedisTo>>() {
+            });
+            Long minTime = Long.MAX_VALUE;
+            SeckillSkuRedisTo min = null;
+            for (SeckillSkuRedisTo datum : data) {
+                if (datum.getStartTime() < minTime) {
+                    minTime = datum.getStartTime();
+                    min = datum;
+                }
+            }
+            skuItemVo.setSeckillSkuInfo(min);
+        },poolExecutor);
         //等待所有任务都完成
-        CompletableFuture.allOf(future1,future2).get();
+        CompletableFuture.allOf(future1,future2,future3).get();
         return skuItemVo;
     }
 

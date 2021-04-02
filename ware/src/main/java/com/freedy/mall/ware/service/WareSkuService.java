@@ -1,11 +1,17 @@
 package com.freedy.mall.ware.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.freedy.common.to.mq.OrderTo;
+import com.freedy.common.to.mq.StockLockedTo;
 import com.freedy.common.utils.PageUtils;
 import com.freedy.mall.ware.entity.WareSkuEntity;
+import com.freedy.mall.ware.vo.OrderEntity;
 import com.freedy.mall.ware.vo.SkuHasStockVo;
 import com.freedy.mall.ware.vo.WareSkuLockVo;
+import com.rabbitmq.client.Channel;
+import org.springframework.amqp.core.Message;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
@@ -32,6 +38,10 @@ public interface WareSkuService extends IService<WareSkuEntity> {
 
     boolean orderLockStockAuto(WareSkuLockVo vo);
 
-    void releaseLockStock();
+    public void unLockStock(Long skuId, Long wareId, Integer count);
+
+    void unLockStock(StockLockedTo to, Message message, Channel channel) throws IOException;
+
+    void unLockStock(OrderTo orderEntity, Message message, Channel channel) throws IOException;
 }
 

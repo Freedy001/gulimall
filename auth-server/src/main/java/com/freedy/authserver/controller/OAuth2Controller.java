@@ -59,6 +59,7 @@ public class OAuth2Controller {
                 //todo 1.默认发送的令牌是session=xxxxxx 作用域:当前域（解决子域session共享问题）
                 // TODO: 2021/3/13 使用json序列化方式来序列化对象数据到redis中
                 session.setAttribute(AuthServeConstant.LOGIN_USER,data);
+                session.setMaxInactiveInterval(60 * 60 * 24);
                 log.info("登录成功:用户:{}",data);
                 //登录成功跳回首页
                 return "redirect:http://freedymall.com";

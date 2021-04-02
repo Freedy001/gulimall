@@ -3,6 +3,7 @@ package com.freedy.mall.order.interceptor;
 import com.freedy.common.constant.AuthServeConstant;
 import com.freedy.common.to.MemberEntity;
 import org.springframework.stereotype.Component;
+import org.springframework.util.AntPathMatcher;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 import javax.servlet.http.Cookie;
@@ -20,6 +21,13 @@ public class LoginUserInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+        //http://order.freedymall.com/order/order/status/123
+        if (new AntPathMatcher().match("/order/order/status/**",request.getRequestURI())){
+            return true;
+        }
+        if (new AntPathMatcher().match("/payed/**",request.getRequestURI())){
+            return true;
+        }
         MemberEntity attribute =(MemberEntity) request.getSession().getAttribute(AuthServeConstant.LOGIN_USER);
         if (attribute!=null){
             loginUser.set(attribute);

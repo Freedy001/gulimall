@@ -22,5 +22,6 @@
         <module>third-party</module>
         <module>auth-server</module>
         <module>cart</module>
+        <module>seckill</module>
     </modules>
 </project>

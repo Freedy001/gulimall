@@ -23,7 +23,22 @@ spring:
           uri: lb://mall-order
           predicates:
             - Host=order.freedymall.com
+        - id: member
+          uri: lb://mall-member
+          predicates:
+            - Host=member.freedymall.com
+        - id: seckill
+          uri: lb://mall-seckill
+          predicates:
+            - Host=seckill.freedymall.com
         #后台页面
+        - id: coupon
+          uri: lb://mall-coupon
+          predicates:
+            - Path=/api/coupon/**
+          filters:
+            - RewritePath=/api/(?<segment>/?.*), /$\{segment}
+
         - id: ware
           uri: lb://mall-ware
           predicates:

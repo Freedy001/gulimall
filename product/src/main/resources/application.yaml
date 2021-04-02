@@ -35,7 +35,7 @@ mybatis-plus:
       logic-delete-value: 1
       logic-not-delete-value: 0
 server:
-  port: 10100
+  port: 11111
 
 logging:
   level:
