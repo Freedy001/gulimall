@@ -219,9 +219,9 @@ freedymall:
 
 #### 10.启动所有项目
 
-访问http://freedymall.com可以打开前台页面
+访问http://freedymall.com 可以打开前台页面
 
-访问http://localhost:8080可以打开后台界面
+访问http://localhost:8001 可以打开后台界面
 
 
 ## 参与贡献
