@@ -1,0 +1,184 @@
+2021-03-26 21:09:28,845 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2021-03-26 21:09:30,518 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2021-03-26 21:09:30,521 INFO listen for service meta change
+
+2021-03-26 21:09:33,814 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.56.1:8848], new: [192.168.56.1:8848]
+
+2021-03-26 21:09:35,849 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":11000,"ip":"192.168.56.1","serviceName":"DEFAULT_GROUP@@mall-ware","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@mall-ware
+
+2021-03-26 21:09:35,857 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":12000,"ip":"192.168.56.1","serviceName":"DEFAULT_GROUP@@mall-search","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@mall-search
+
+2021-03-26 21:09:35,850 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":10100,"ip":"192.168.56.1","serviceName":"DEFAULT_GROUP@@mall-product","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@mall-product
+
+2021-03-26 21:09:35,860 INFO creating empty service public:DEFAULT_GROUP@@mall-product
+
+2021-03-26 21:09:35,864 INFO creating empty service public:DEFAULT_GROUP@@mall-ware
+
+2021-03-26 21:09:35,856 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":88,"ip":"192.168.56.1","serviceName":"DEFAULT_GROUP@@mall-getaway","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@mall-getaway
+
+2021-03-26 21:09:35,865 INFO creating empty service public:DEFAULT_GROUP@@mall-getaway
+
+2021-03-26 21:09:35,865 INFO creating empty service public:DEFAULT_GROUP@@mall-search
+
+2021-03-26 21:09:35,858 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":32112,"ip":"192.168.56.1","serviceName":"DEFAULT_GROUP@@mall-cart","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@mall-cart
+
+2021-03-26 21:09:35,865 INFO creating empty service public:DEFAULT_GROUP@@mall-cart
+
+2021-03-26 21:09:35,853 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":30000,"ip":"192.168.56.1","serviceName":"DEFAULT_GROUP@@third-party","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@third-party
+
+2021-03-26 21:09:35,866 INFO creating empty service public:DEFAULT_GROUP@@third-party
+
+2021-03-26 21:09:35,847 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":20000,"ip":"192.168.56.1","serviceName":"DEFAULT_GROUP@@mall-auth-server","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@mall-auth-server
+
+2021-03-26 21:09:35,872 INFO creating empty service public:DEFAULT_GROUP@@mall-auth-server
+
+2021-03-26 21:09:35,920 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":8000,"ip":"192.168.56.1","serviceName":"DEFAULT_GROUP@@mall-member","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@mall-member
+
+2021-03-26 21:09:35,921 INFO creating empty service public:DEFAULT_GROUP@@mall-member
+
+2021-03-26 21:09:36,306 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@mall-getaway","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1616764175903,"checksum":"3c8023aff1c2a9d7be2d6f49ced84424","clusterMap":{},"empty":true}
+
+2021-03-26 21:09:36,309 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@mall-auth-server","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1616764175872,"checksum":"9a8907aab6973088e111a68466012088","clusterMap":{},"empty":true}
+
+2021-03-26 21:09:36,312 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@mall-member","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1616764175921,"checksum":"e07f400c5e75bb293c70c86c718d0a37","clusterMap":{},"empty":true}
+
+2021-03-26 21:09:36,313 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@mall-cart","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1616764175867,"checksum":"070d3bb6de91473169a0eb709e6e9a7e","clusterMap":{},"empty":true}
+
+2021-03-26 21:09:36,313 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@mall-product","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1616764175867,"checksum":"f100fb41436c8025b8a46d3de0fd015a","clusterMap":{},"empty":true}
+
+2021-03-26 21:09:36,314 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@mall-ware","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1616764175904,"checksum":"929eed95a43f7db9ced6796c8f2ddb07","clusterMap":{},"empty":true}
+
+2021-03-26 21:09:36,314 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@third-party","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1616764175903,"checksum":"80a086fae427f9ab191d58d5816e049c","clusterMap":{},"empty":true}
+
+2021-03-26 21:09:36,315 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@mall-search","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1616764175926,"checksum":"31f0704fca4c441d0687077c178f35bc","clusterMap":{},"empty":true}
+
+2021-03-26 21:09:36,322 WARN cluster: DEFAULT not found, ip: {"ip":"192.168.56.1","port":30000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@third-party","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764175866,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2021-03-26 21:09:36,323 WARN cluster: DEFAULT not found, ip: {"ip":"192.168.56.1","port":88,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-getaway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764175865,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2021-03-26 21:09:36,328 WARN cluster: DEFAULT not found, ip: {"ip":"192.168.56.1","port":10100,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-product","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764175860,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2021-03-26 21:09:36,328 WARN cluster: DEFAULT not found, ip: {"ip":"192.168.56.1","port":11000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-ware","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764175864,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2021-03-26 21:09:36,329 WARN cluster: DEFAULT not found, ip: {"ip":"192.168.56.1","port":12000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-search","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764175860,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2021-03-26 21:09:36,330 WARN cluster: DEFAULT not found, ip: {"ip":"192.168.56.1","port":20000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-auth-server","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764175872,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2021-03-26 21:09:36,348 WARN cluster: DEFAULT not found, ip: {"ip":"192.168.56.1","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-member","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764175921,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2021-03-26 21:09:36,352 WARN cluster: DEFAULT not found, ip: {"ip":"192.168.56.1","port":32112,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-cart","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764175865,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2021-03-26 21:09:36,377 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-search, value: {"instanceList":[{"instanceId":"192.168.56.1#12000#DEFAULT#DEFAULT_GROUP@@mall-search","ip":"192.168.56.1","port":12000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-search","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764175860,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 21:09:36,392 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-ware, value: {"instanceList":[{"instanceId":"192.168.56.1#11000#DEFAULT#DEFAULT_GROUP@@mall-ware","ip":"192.168.56.1","port":11000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-ware","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764175864,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 21:09:36,413 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-member, value: {"instanceList":[{"instanceId":"192.168.56.1#8000#DEFAULT#DEFAULT_GROUP@@mall-member","ip":"192.168.56.1","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-member","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764175921,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 21:09:36,414 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-auth-server, value: {"instanceList":[{"instanceId":"192.168.56.1#20000#DEFAULT#DEFAULT_GROUP@@mall-auth-server","ip":"192.168.56.1","port":20000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-auth-server","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764175872,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 21:09:36,441 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@third-party, value: {"instanceList":[{"instanceId":"192.168.56.1#30000#DEFAULT#DEFAULT_GROUP@@third-party","ip":"192.168.56.1","port":30000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@third-party","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764175866,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 21:09:36,442 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-getaway, value: {"instanceList":[{"instanceId":"192.168.56.1#88#DEFAULT#DEFAULT_GROUP@@mall-getaway","ip":"192.168.56.1","port":88,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-getaway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764175865,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 21:09:36,497 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-product, value: {"instanceList":[{"instanceId":"192.168.56.1#10100#DEFAULT#DEFAULT_GROUP@@mall-product","ip":"192.168.56.1","port":10100,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-product","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764175860,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 21:09:36,499 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-cart, value: {"instanceList":[{"instanceId":"192.168.56.1#32112#DEFAULT#DEFAULT_GROUP@@mall-cart","ip":"192.168.56.1","port":32112,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-cart","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764175865,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 21:09:37,296 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":9000,"ip":"192.168.56.1","serviceName":"DEFAULT_GROUP@@mall-order","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@mall-order
+
+2021-03-26 21:09:37,296 INFO creating empty service public:DEFAULT_GROUP@@mall-order
+
+2021-03-26 21:09:37,297 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@mall-order","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1616764177296,"checksum":"0e3c6457121597108441240610f375a6","clusterMap":{},"empty":true}
+
+2021-03-26 21:09:37,297 WARN cluster: DEFAULT not found, ip: {"ip":"192.168.56.1","port":9000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-order","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764177296,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2021-03-26 21:09:37,297 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-order, value: {"instanceList":[{"instanceId":"192.168.56.1#9000#DEFAULT#DEFAULT_GROUP@@mall-order","ip":"192.168.56.1","port":9000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-order","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764177296,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 21:11:53,891 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@third-party, value: {"instanceList":[{"instanceId":"192.168.56.1#30000#DEFAULT#DEFAULT_GROUP@@third-party","ip":"192.168.56.1","port":30000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@third-party","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764313888,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 21:12:02,455 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@mall-order, ip: {"instanceId":"192.168.56.1#9000#DEFAULT#DEFAULT_GROUP@@mall-order","ip":"192.168.56.1","port":9000,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-order","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764292433,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-03-26 21:12:02,745 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-order, value: {"instanceList":[]}
+
+2021-03-26 21:12:06,016 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@mall-member, ip: {"instanceId":"192.168.56.1#8000#DEFAULT#DEFAULT_GROUP@@mall-member","ip":"192.168.56.1","port":8000,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-member","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764291630,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-03-26 21:12:06,017 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@mall-search, ip: {"instanceId":"192.168.56.1#12000#DEFAULT#DEFAULT_GROUP@@mall-search","ip":"192.168.56.1","port":12000,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-search","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764291607,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-03-26 21:12:06,018 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@mall-product, ip: {"instanceId":"192.168.56.1#10100#DEFAULT#DEFAULT_GROUP@@mall-product","ip":"192.168.56.1","port":10100,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-product","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764291639,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-03-26 21:12:06,020 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@mall-cart, ip: {"instanceId":"192.168.56.1#32112#DEFAULT#DEFAULT_GROUP@@mall-cart","ip":"192.168.56.1","port":32112,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-cart","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764291645,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-03-26 21:12:06,021 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@mall-getaway, ip: {"instanceId":"192.168.56.1#88#DEFAULT#DEFAULT_GROUP@@mall-getaway","ip":"192.168.56.1","port":88,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-getaway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764291576,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-03-26 21:12:06,021 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@mall-ware, ip: {"instanceId":"192.168.56.1#11000#DEFAULT#DEFAULT_GROUP@@mall-ware","ip":"192.168.56.1","port":11000,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-ware","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764291617,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-03-26 21:12:06,024 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-member, value: {"instanceList":[]}
+
+2021-03-26 21:12:06,024 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-search, value: {"instanceList":[]}
+
+2021-03-26 21:12:06,025 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-getaway, value: {"instanceList":[]}
+
+2021-03-26 21:12:06,030 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-product, value: {"instanceList":[]}
+
+2021-03-26 21:12:06,030 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-cart, value: {"instanceList":[]}
+
+2021-03-26 21:12:06,031 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-ware, value: {"instanceList":[]}
+
+2021-03-26 21:12:06,034 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@mall-auth-server, ip: {"instanceId":"192.168.56.1#20000#DEFAULT#DEFAULT_GROUP@@mall-auth-server","ip":"192.168.56.1","port":20000,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-auth-server","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764291634,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-03-26 21:12:06,037 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-auth-server, value: {"instanceList":[]}
+
+2021-03-26 21:12:09,543 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":8000,"ip":"192.168.56.1","serviceName":"DEFAULT_GROUP@@mall-member","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@mall-member
+
+2021-03-26 21:12:09,546 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-member, value: {"instanceList":[{"instanceId":"192.168.56.1#8000#DEFAULT#DEFAULT_GROUP@@mall-member","ip":"192.168.56.1","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-member","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764329543,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 21:12:23,612 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-search, value: {"instanceList":[{"instanceId":"192.168.56.1#12000#DEFAULT#DEFAULT_GROUP@@mall-search","ip":"192.168.56.1","port":12000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-search","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764343602,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 21:12:30,163 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":11000,"ip":"192.168.56.1","serviceName":"DEFAULT_GROUP@@mall-ware","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@mall-ware
+
+2021-03-26 21:12:30,164 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-ware, value: {"instanceList":[{"instanceId":"192.168.56.1#11000#DEFAULT#DEFAULT_GROUP@@mall-ware","ip":"192.168.56.1","port":11000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-ware","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764350163,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 21:12:30,168 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-ware, value: {"instanceList":[{"instanceId":"192.168.56.1#11000#DEFAULT#DEFAULT_GROUP@@mall-ware","ip":"192.168.56.1","port":11000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-ware","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764350163,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 21:12:39,622 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":20000,"ip":"192.168.56.1","serviceName":"DEFAULT_GROUP@@mall-auth-server","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@mall-auth-server
+
+2021-03-26 21:12:39,622 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-auth-server, value: {"instanceList":[{"instanceId":"192.168.56.1#20000#DEFAULT#DEFAULT_GROUP@@mall-auth-server","ip":"192.168.56.1","port":20000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-auth-server","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764359622,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 21:12:46,307 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":32112,"ip":"192.168.56.1","serviceName":"DEFAULT_GROUP@@mall-cart","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@mall-cart
+
+2021-03-26 21:12:46,329 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-cart, value: {"instanceList":[{"instanceId":"192.168.56.1#32112#DEFAULT#DEFAULT_GROUP@@mall-cart","ip":"192.168.56.1","port":32112,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-cart","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764366307,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 21:12:46,360 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-cart, value: {"instanceList":[{"instanceId":"192.168.56.1#32112#DEFAULT#DEFAULT_GROUP@@mall-cart","ip":"192.168.56.1","port":32112,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-cart","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764366359,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 21:13:04,239 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":9000,"ip":"192.168.56.1","serviceName":"DEFAULT_GROUP@@mall-order","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@mall-order
+
+2021-03-26 21:13:04,242 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-order, value: {"instanceList":[{"instanceId":"192.168.56.1#9000#DEFAULT#DEFAULT_GROUP@@mall-order","ip":"192.168.56.1","port":9000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-order","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764384239,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 21:13:09,466 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-getaway, value: {"instanceList":[{"instanceId":"192.168.56.1#88#DEFAULT#DEFAULT_GROUP@@mall-getaway","ip":"192.168.56.1","port":88,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-getaway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764389463,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 21:13:11,768 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-product, value: {"instanceList":[{"instanceId":"192.168.56.1#10100#DEFAULT#DEFAULT_GROUP@@mall-product","ip":"192.168.56.1","port":10100,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-product","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616764391749,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 21:25:29,479 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@mall-order
+
+2021-03-26 21:25:30,461 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@mall-order
+
+2021-03-26 21:25:34,811 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-order, value: {"instanceList":[{"instanceId":"192.168.56.1#9000#DEFAULT#DEFAULT_GROUP@@mall-order","ip":"192.168.56.1","port":9000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-order","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616765134811,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-03-26 22:42:15,664 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@third-party, ip: {"instanceId":"192.168.56.1#30000#DEFAULT#DEFAULT_GROUP@@third-party","ip":"192.168.56.1","port":30000,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@third-party","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616769703171,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-03-26 22:42:15,782 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@third-party, value: {"instanceList":[]}
+
+2021-03-26 22:42:30,751 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@mall-search, ip: {"instanceId":"192.168.56.1#12000#DEFAULT#DEFAULT_GROUP@@mall-search","ip":"192.168.56.1","port":12000,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@mall-search","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1616769718694,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-03-26 22:42:30,757 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@mall-search, value: {"instanceList":[]}
+
+2021-03-26 22:44:20,522 WARN namespace : public, [DEFAULT_GROUP@@third-party] services are automatically cleaned
+
+2021-03-26 22:44:20,675 INFO [DEAD-SERVICE] {"name":"DEFAULT_GROUP@@third-party","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":5,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1616769735783,"checksum":"c283bf7bb096554c43018c5eafb17744","clusterMap":{"DEFAULT":{"serviceName":"DEFAULT_GROUP@@third-party","name":"DEFAULT","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":true,"defIPPort":80}},"empty":true}
+
+2021-03-26 22:44:50,544 WARN namespace : public, [DEFAULT_GROUP@@mall-search] services are automatically cleaned
+
+2021-03-26 22:44:50,545 INFO [DEAD-SERVICE] {"name":"DEFAULT_GROUP@@mall-search","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":5,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1616769750757,"checksum":"b9d7a717a8267d940bd72996a7106b9e","clusterMap":{"DEFAULT":{"serviceName":"DEFAULT_GROUP@@mall-search","name":"DEFAULT","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":true,"defIPPort":80}},"empty":true}
+

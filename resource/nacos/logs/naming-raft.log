@@ -1,0 +1,124 @@
+2021-04-02 09:17:50,080 INFO raft peers changed: [Member{ip='192.168.56.1', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2021-04-02 09:17:50,217 INFO initializing Raft sub-system
+
+2021-04-02 09:17:50,220 INFO finish loading all datums, size: 0 cost 3 ms.
+
+2021-04-02 09:17:50,234 INFO cache loaded, datum count: 0, current term: 0
+
+2021-04-02 09:17:50,234 INFO finish to load data from disk, cost: 17 ms.
+
+2021-04-02 09:17:50,237 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2021-04-02 09:17:52,300 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2021-04-02 09:17:52,391 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2021-04-02 09:17:57,766 WARN start to close old raft protocol!!!
+
+2021-04-02 09:17:57,766 WARN stop old raft protocol task for notifier
+
+2021-04-02 09:17:57,766 WARN stop old raft protocol task for master task
+
+2021-04-02 09:17:57,766 WARN stop old raft protocol task for heartbeat task
+
+2021-04-02 09:17:57,767 WARN clean old cache datum for old raft
+
+2021-04-02 09:17:57,767 WARN start to close old raft protocol!!!
+
+2021-04-02 09:17:57,767 WARN stop old raft protocol task for notifier
+
+2021-04-02 09:17:57,767 WARN stop old raft protocol task for master task
+
+2021-04-02 09:17:57,767 WARN stop old raft protocol task for heartbeat task
+
+2021-04-02 09:17:57,767 WARN clean old cache datum for old raft
+
+2021-04-02 09:17:57,767 WARN start to move old raft protocol metadata
+
+2021-04-02 09:17:57,770 WARN start to move old raft protocol metadata
+
+2021-04-02 09:17:57,771 INFO raft peers changed: [Member{ip='192.168.56.1', port=8848, state=UP, extendInfo={lastRefreshTime=1617326277770, raftPort=7848, version=1.4.1}}]
+
+2021-04-02 09:29:44,443 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-coupon
+
+2021-04-02 09:29:44,443 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-coupon
+
+2021-04-02 09:30:20,008 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-getaway
+
+2021-04-02 09:31:11,080 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@renren-fast
+
+2021-04-02 09:31:16,005 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@third-party
+
+2021-04-02 09:33:35,213 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-seckill
+
+2021-04-02 09:34:16,265 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-member
+
+2021-04-02 09:34:16,267 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-member
+
+2021-04-02 09:34:32,377 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-order
+
+2021-04-02 09:34:43,812 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-auth-server
+
+2021-04-02 09:34:50,810 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-cart
+
+2021-04-02 09:35:00,471 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-search
+
+2021-04-02 09:38:15,139 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-ware
+
+2021-04-02 09:38:15,139 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-ware
+
+2021-04-02 09:42:42,445 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@mall-auth-server
+
+2021-04-02 09:42:42,447 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@mall-cart
+
+2021-04-02 09:42:42,452 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@mall-coupon
+
+2021-04-02 09:42:42,453 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@mall-getaway
+
+2021-04-02 09:42:42,454 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@mall-member
+
+2021-04-02 09:42:42,456 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@mall-order
+
+2021-04-02 09:42:42,457 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@mall-search
+
+2021-04-02 09:42:42,458 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@mall-seckill
+
+2021-04-02 09:42:42,462 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@mall-ware
+
+2021-04-02 09:42:42,463 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@renren-fast
+
+2021-04-02 09:42:42,464 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@third-party
+
+2021-04-02 09:43:14,953 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-coupon
+
+2021-04-02 09:43:25,023 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-auth-server
+
+2021-04-02 09:43:25,023 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-auth-server
+
+2021-04-02 09:43:28,517 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-getaway
+
+2021-04-02 09:43:28,615 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-cart
+
+2021-04-02 09:43:28,615 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-cart
+
+2021-04-02 09:43:46,527 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-member
+
+2021-04-02 09:44:31,582 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@renren-fast
+
+2021-04-02 09:44:31,583 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@renren-fast
+
+2021-04-02 09:44:37,461 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-search
+
+2021-04-02 09:44:38,473 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@third-party
+
+2021-04-02 09:44:43,633 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-ware
+
+2021-04-02 09:44:50,050 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-seckill
+
+2021-04-02 09:44:50,050 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-seckill
+
+2021-04-02 09:44:53,535 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-order
+
+2021-04-02 09:51:02,759 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@mall-product
+

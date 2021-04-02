@@ -1,0 +1,11 @@
+2021-04-01 18:47:59,149|192.168.56.1|datasource.yml|dev|cec4dc64-c8a9-4678-8ebf-451985cce4ea|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-04-01 18:47:59,976|192.168.56.1|mybatis.yml|dev|cec4dc64-c8a9-4678-8ebf-451985cce4ea|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-04-01 18:47:59,982|192.168.56.1|other.yml|dev|cec4dc64-c8a9-4678-8ebf-451985cce4ea|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-04-01 18:48:00,137|192.168.56.1|mall-coupon.properties|DEFAULT_GROUP|cec4dc64-c8a9-4678-8ebf-451985cce4ea|unknown|1612030552106|pull|ok|5243528031|127.0.0.1
+2021-04-01 19:20:16,772|192.168.56.1|mall-product.properties|DEFAULT_GROUP|a7a7e7b3-d7aa-4dc9-b0dd-bc247d0bcc99|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-04-01 19:22:11,665|192.168.56.1|mall-product.properties|DEFAULT_GROUP|a7a7e7b3-d7aa-4dc9-b0dd-bc247d0bcc99|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-04-01 19:26:27,784|192.168.56.1|mall-product.properties|DEFAULT_GROUP|a7a7e7b3-d7aa-4dc9-b0dd-bc247d0bcc99|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-04-01 19:35:13,110|192.168.56.1|mall-product.properties|DEFAULT_GROUP|a7a7e7b3-d7aa-4dc9-b0dd-bc247d0bcc99|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-04-01 21:49:44,133|192.168.56.1|mall-product.properties|DEFAULT_GROUP|a7a7e7b3-d7aa-4dc9-b0dd-bc247d0bcc99|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-04-01 21:58:16,129|192.168.56.1|mall-product.properties|DEFAULT_GROUP|a7a7e7b3-d7aa-4dc9-b0dd-bc247d0bcc99|unknown|-1|pull|not-found|-1|127.0.0.1
+2021-04-01 22:18:53,634|192.168.56.1|mall-product.properties|DEFAULT_GROUP|a7a7e7b3-d7aa-4dc9-b0dd-bc247d0bcc99|unknown|-1|pull|not-found|-1|127.0.0.1

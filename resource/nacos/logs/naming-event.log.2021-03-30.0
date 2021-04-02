@@ -1,0 +1,894 @@
+2021-03-30 11:19:44,456 INFO DEFAULT_GROUP@@mall-getaway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 11:19:44,458 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 192.168.56.1:88_true,
+
+2021-03-30 11:19:44,462 INFO DEFAULT_GROUP@@mall-getaway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 11:19:44,462 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 192.168.56.1:88_true,
+
+2021-03-30 11:19:44,463 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 192.168.56.1:88_true,
+
+2021-03-30 11:19:44,463 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 192.168.56.1:88_true,
+
+2021-03-30 11:19:51,507 INFO DEFAULT_GROUP@@mall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:10100:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 11:19:51,507 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 192.168.56.1:10100_true,
+
+2021-03-30 11:19:57,044 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 11:19:57,044 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 11:20:03,481 INFO DEFAULT_GROUP@@mall-ware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:11000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 11:20:03,481 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 192.168.56.1:11000_true,
+
+2021-03-30 11:20:03,484 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 192.168.56.1:11000_true,
+
+2021-03-30 11:20:06,874 INFO DEFAULT_GROUP@@mall-auth-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 11:20:06,874 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-auth-server, ips: 192.168.56.1:20000_true,
+
+2021-03-30 11:20:06,878 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-auth-server, ips: 192.168.56.1:20000_true,
+
+2021-03-30 11:20:24,932 INFO DEFAULT_GROUP@@mall-cart {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:32112:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 11:20:24,932 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-cart, ips: 192.168.56.1:32112_true,
+
+2021-03-30 11:21:16,963 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:20000@DEFAULT@DEFAULT_GROUP@@mall-auth-server, region: unknown, msg: client timeout after 15000, last beat: 1617074456969
+
+2021-03-30 11:21:17,148 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8000@DEFAULT@DEFAULT_GROUP@@mall-member, region: unknown, msg: client timeout after 15000, last beat: 1617074457152
+
+2021-03-30 11:21:18,534 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:11000@DEFAULT@DEFAULT_GROUP@@mall-ware, region: unknown, msg: client timeout after 15000, last beat: 1617074458574
+
+2021-03-30 11:21:19,095 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:88@DEFAULT@DEFAULT_GROUP@@mall-getaway, region: unknown, msg: client timeout after 15000, last beat: 1617074459646
+
+2021-03-30 11:21:19,941 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:32112@DEFAULT@DEFAULT_GROUP@@mall-cart, region: unknown, msg: client timeout after 15000, last beat: 1617074459977
+
+2021-03-30 11:21:27,170 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 11:21:27,170 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 11:21:27,171 INFO DEFAULT_GROUP@@mall-auth-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:20000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 11:21:27,171 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-auth-server, ips: 
+
+2021-03-30 11:21:33,546 INFO DEFAULT_GROUP@@mall-ware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:11000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 11:21:33,546 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 
+
+2021-03-30 11:21:34,108 INFO DEFAULT_GROUP@@mall-getaway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:88:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 11:21:34,108 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 
+
+2021-03-30 11:21:34,109 INFO DEFAULT_GROUP@@mall-getaway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:88:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 11:21:34,109 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 
+
+2021-03-30 11:21:34,111 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 
+
+2021-03-30 11:21:34,111 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 
+
+2021-03-30 11:21:34,955 INFO DEFAULT_GROUP@@mall-cart {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:32112:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 11:21:34,955 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-cart, ips: 
+
+2021-03-30 11:22:46,459 INFO DEFAULT_GROUP@@mall-getaway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 11:22:46,460 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 192.168.56.1:88_true,
+
+2021-03-30 11:22:46,460 INFO DEFAULT_GROUP@@mall-getaway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 11:22:46,460 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 192.168.56.1:88_true,
+
+2021-03-30 11:22:56,736 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 11:22:56,736 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 11:23:11,653 INFO DEFAULT_GROUP@@mall-ware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:11000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 11:23:11,653 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 192.168.56.1:11000_true,
+
+2021-03-30 11:23:22,742 INFO DEFAULT_GROUP@@mall-auth-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 11:23:22,742 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-auth-server, ips: 192.168.56.1:20000_true,
+
+2021-03-30 11:23:29,652 INFO DEFAULT_GROUP@@mall-cart {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:32112:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 11:23:29,652 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-cart, ips: 192.168.56.1:32112_true,
+
+2021-03-30 11:23:47,127 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 11:23:47,127 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 11:23:47,127 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 11:23:47,127 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 11:23:47,128 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 11:23:47,129 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 11:25:10,287 INFO DEFAULT_GROUP@@mall-search {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:12000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 11:25:10,287 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-search, ips: 192.168.56.1:12000_true,
+
+2021-03-30 11:25:10,287 INFO DEFAULT_GROUP@@mall-search {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:12000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 11:25:10,287 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-search, ips: 192.168.56.1:12000_true,
+
+2021-03-30 11:25:10,287 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-search, ips: 192.168.56.1:12000_true,
+
+2021-03-30 11:25:10,287 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-search, ips: 192.168.56.1:12000_true,
+
+2021-03-30 11:28:37,005 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:10100@DEFAULT@DEFAULT_GROUP@@mall-product, region: unknown, msg: client timeout after 15000, last beat: 1617074897422
+
+2021-03-30 11:28:39,327 INFO service: DEFAULT_GROUP@@mall-product {POS} {IP-ENABLED} valid: 192.168.56.1:10100@DEFAULT, region: unknown, msg: client beat ok
+
+2021-03-30 11:28:39,329 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 192.168.56.1:10100_true,
+
+2021-03-30 12:05:52,994 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 12:05:52,996 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 12:05:52,996 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 12:05:52,996 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 12:06:04,682 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 12:06:04,682 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 12:06:04,682 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 12:06:04,682 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 16:08:05,115 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 16:08:05,115 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 16:08:05,115 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 16:08:05,115 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 16:08:17,235 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 16:08:17,235 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 16:08:17,236 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 16:08:17,236 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 16:08:17,236 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 16:08:17,236 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 16:18:17,902 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:9000@DEFAULT@DEFAULT_GROUP@@mall-order, region: unknown, msg: client timeout after 15000, last beat: 1617092278671
+
+2021-03-30 16:18:22,623 INFO service: DEFAULT_GROUP@@mall-order {POS} {IP-ENABLED} valid: 192.168.56.1:9000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-03-30 16:18:22,624 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 16:18:22,624 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 16:21:32,967 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:9000@DEFAULT@DEFAULT_GROUP@@mall-order, region: unknown, msg: client timeout after 15000, last beat: 1617092477802
+
+2021-03-30 16:21:42,629 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:11000@DEFAULT@DEFAULT_GROUP@@mall-ware, region: unknown, msg: client timeout after 15000, last beat: 1617092486932
+
+2021-03-30 16:21:48,047 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 16:21:48,047 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 16:21:48,047 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 16:21:48,047 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 16:21:48,051 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 16:21:48,052 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 16:21:57,661 INFO DEFAULT_GROUP@@mall-ware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:11000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 16:21:57,661 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 
+
+2021-03-30 16:22:05,878 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 16:22:05,878 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 16:22:05,878 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 16:22:05,878 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 16:22:05,879 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 16:22:05,880 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 16:22:09,245 INFO DEFAULT_GROUP@@mall-ware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:11000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 16:22:09,245 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 192.168.56.1:11000_true,
+
+2021-03-30 16:22:09,245 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 192.168.56.1:11000_true,
+
+2021-03-30 16:30:30,672 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:9000@DEFAULT@DEFAULT_GROUP@@mall-order, region: unknown, msg: client timeout after 15000, last beat: 1617093012477
+
+2021-03-30 16:30:45,694 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 16:30:45,694 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 16:30:45,695 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 16:30:45,695 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 16:30:47,920 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 16:30:47,920 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 16:30:47,920 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 16:30:47,920 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 16:30:47,921 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 16:30:47,921 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 16:31:04,392 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 192.168.56.1:11000_true,
+
+2021-03-30 16:38:56,883 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:9000@DEFAULT@DEFAULT_GROUP@@mall-order, region: unknown, msg: client timeout after 15000, last beat: 1617093518871
+
+2021-03-30 16:39:10,956 INFO service: DEFAULT_GROUP@@mall-order {POS} {IP-ENABLED} valid: 192.168.56.1:9000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-03-30 16:39:10,959 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 16:39:10,959 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 16:50:18,535 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8000@DEFAULT@DEFAULT_GROUP@@mall-member, region: unknown, msg: client timeout after 15000, last beat: 1617094200810
+
+2021-03-30 16:50:33,542 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 16:50:33,542 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 16:50:33,729 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 16:50:33,729 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 16:50:33,729 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 16:54:13,859 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8000@DEFAULT@DEFAULT_GROUP@@mall-member, region: unknown, msg: client timeout after 15000, last beat: 1617094434354
+
+2021-03-30 16:54:22,916 INFO service: DEFAULT_GROUP@@mall-member {POS} {IP-ENABLED} valid: 192.168.56.1:8000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-03-30 16:54:22,920 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 16:54:23,862 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:88@DEFAULT@DEFAULT_GROUP@@mall-getaway, region: unknown, msg: client timeout after 15000, last beat: 1617094445213
+
+2021-03-30 16:54:26,897 INFO service: DEFAULT_GROUP@@mall-getaway {POS} {IP-ENABLED} valid: 192.168.56.1:88@DEFAULT, region: unknown, msg: client beat ok
+
+2021-03-30 16:54:26,899 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 192.168.56.1:88_true,
+
+2021-03-30 16:54:26,899 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 192.168.56.1:88_true,
+
+2021-03-30 16:56:43,926 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:32112@DEFAULT@DEFAULT_GROUP@@mall-cart, region: unknown, msg: client timeout after 15000, last beat: 1617094588463
+
+2021-03-30 16:56:43,926 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:88@DEFAULT@DEFAULT_GROUP@@mall-getaway, region: unknown, msg: client timeout after 15000, last beat: 1617094587017
+
+2021-03-30 16:56:43,926 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8000@DEFAULT@DEFAULT_GROUP@@mall-member, region: unknown, msg: client timeout after 15000, last beat: 1617094588025
+
+2021-03-30 16:56:43,926 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:11000@DEFAULT@DEFAULT_GROUP@@mall-ware, region: unknown, msg: client timeout after 15000, last beat: 1617094587560
+
+2021-03-30 16:56:48,928 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:9000@DEFAULT@DEFAULT_GROUP@@mall-order, region: unknown, msg: client timeout after 15000, last beat: 1617094592571
+
+2021-03-30 16:56:48,928 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:12000@DEFAULT@DEFAULT_GROUP@@mall-search, region: unknown, msg: client timeout after 15000, last beat: 1617094589532
+
+2021-03-30 16:56:48,928 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:20000@DEFAULT@DEFAULT_GROUP@@mall-auth-server, region: unknown, msg: client timeout after 15000, last beat: 1617094591396
+
+2021-03-30 16:56:59,103 INFO DEFAULT_GROUP@@mall-getaway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:88:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 16:56:59,103 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 
+
+2021-03-30 16:56:59,103 INFO DEFAULT_GROUP@@mall-getaway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:88:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 16:56:59,103 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 
+
+2021-03-30 16:56:59,103 INFO DEFAULT_GROUP@@mall-ware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:11000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 16:56:59,103 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 
+
+2021-03-30 16:56:59,103 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 16:56:59,103 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 16:56:59,112 INFO DEFAULT_GROUP@@mall-cart {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:32112:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 16:56:59,112 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-cart, ips: 
+
+2021-03-30 16:57:04,186 INFO DEFAULT_GROUP@@mall-search {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:12000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 16:57:04,186 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-search, ips: 
+
+2021-03-30 16:57:04,186 INFO DEFAULT_GROUP@@mall-search {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:12000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 16:57:04,186 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-search, ips: 
+
+2021-03-30 16:57:04,186 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 16:57:04,186 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 16:57:04,186 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 16:57:04,186 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 16:57:04,187 INFO DEFAULT_GROUP@@mall-auth-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:20000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 16:57:04,187 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-auth-server, ips: 
+
+2021-03-30 16:59:57,502 INFO DEFAULT_GROUP@@mall-getaway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 16:59:57,502 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 192.168.56.1:88_true,
+
+2021-03-30 16:59:57,506 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 192.168.56.1:88_true,
+
+2021-03-30 17:00:22,784 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:00:22,784 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 17:00:22,787 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:00:22,787 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 17:00:22,787 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 17:00:22,787 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 17:00:37,215 INFO DEFAULT_GROUP@@mall-ware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:11000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:00:37,215 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 192.168.56.1:11000_true,
+
+2021-03-30 17:00:37,215 INFO DEFAULT_GROUP@@mall-ware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:11000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:00:37,215 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 192.168.56.1:11000_true,
+
+2021-03-30 17:00:37,217 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 192.168.56.1:11000_true,
+
+2021-03-30 17:00:37,217 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 192.168.56.1:11000_true,
+
+2021-03-30 17:00:44,247 INFO DEFAULT_GROUP@@mall-auth-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:00:44,247 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-auth-server, ips: 192.168.56.1:20000_true,
+
+2021-03-30 17:00:44,247 INFO DEFAULT_GROUP@@mall-auth-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:00:44,247 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-auth-server, ips: 192.168.56.1:20000_true,
+
+2021-03-30 17:00:44,249 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-auth-server, ips: 192.168.56.1:20000_true,
+
+2021-03-30 17:00:44,249 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-auth-server, ips: 192.168.56.1:20000_true,
+
+2021-03-30 17:00:51,528 INFO DEFAULT_GROUP@@mall-cart {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:32112:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:00:51,528 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-cart, ips: 192.168.56.1:32112_true,
+
+2021-03-30 17:00:51,528 INFO DEFAULT_GROUP@@mall-cart {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:32112:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:00:51,528 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-cart, ips: 192.168.56.1:32112_true,
+
+2021-03-30 17:00:51,528 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-cart, ips: 192.168.56.1:32112_true,
+
+2021-03-30 17:00:51,528 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-cart, ips: 192.168.56.1:32112_true,
+
+2021-03-30 17:01:00,140 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:01:00,140 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 17:01:00,143 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 17:01:40,105 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:10100@DEFAULT@DEFAULT_GROUP@@mall-product, region: unknown, msg: client timeout after 15000, last beat: 1617094884117
+
+2021-03-30 17:01:55,109 INFO DEFAULT_GROUP@@mall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:10100:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 17:01:55,109 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 
+
+2021-03-30 17:02:02,932 INFO DEFAULT_GROUP@@mall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:10100:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:02:02,932 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 192.168.56.1:10100_true,
+
+2021-03-30 17:12:29,043 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8000@DEFAULT@DEFAULT_GROUP@@mall-member, region: unknown, msg: client timeout after 15000, last beat: 1617095529124
+
+2021-03-30 17:12:44,085 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 17:12:44,085 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 17:12:44,085 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 17:12:44,085 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 17:12:44,089 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 17:12:44,089 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 17:16:06,019 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:16:06,019 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 17:20:16,822 INFO DEFAULT_GROUP@@mall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:10100:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:20:16,822 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 
+
+2021-03-30 17:20:16,891 INFO DEFAULT_GROUP@@mall-ware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:11000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:20:16,891 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 
+
+2021-03-30 17:20:16,891 INFO DEFAULT_GROUP@@mall-ware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:11000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:20:16,891 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 
+
+2021-03-30 17:20:17,936 INFO DEFAULT_GROUP@@mall-cart {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:32112:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:20:17,936 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-cart, ips: 
+
+2021-03-30 17:20:17,936 INFO DEFAULT_GROUP@@mall-cart {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:32112:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:20:17,936 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-cart, ips: 
+
+2021-03-30 17:20:17,949 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:20:17,949 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 17:20:18,101 INFO DEFAULT_GROUP@@mall-auth-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:20:18,101 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-auth-server, ips: 
+
+2021-03-30 17:20:18,101 INFO DEFAULT_GROUP@@mall-auth-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:20:18,101 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-auth-server, ips: 
+
+2021-03-30 17:20:51,971 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8000@DEFAULT@DEFAULT_GROUP@@mall-member, region: unknown, msg: client timeout after 15000, last beat: 1617096036286
+
+2021-03-30 17:21:07,011 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 17:21:07,012 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 17:21:25,728 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:88@DEFAULT@DEFAULT_GROUP@@mall-getaway, region: unknown, msg: client timeout after 15000, last beat: 1617096070600
+
+2021-03-30 17:21:40,762 INFO DEFAULT_GROUP@@mall-getaway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:88:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 17:21:40,762 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 
+
+2021-03-30 17:25:08,901 INFO DEFAULT_GROUP@@mall-coupon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:25:08,902 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-coupon, ips: 192.168.56.1:7000_true,
+
+2021-03-30 17:25:08,903 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-coupon, ips: 192.168.56.1:7000_true,
+
+2021-03-30 17:29:25,800 INFO DEFAULT_GROUP@@mall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:10100:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:29:25,800 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 192.168.56.1:10100_true,
+
+2021-03-30 17:30:12,109 INFO DEFAULT_GROUP@@mall-cart {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:32112:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:30:12,109 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-cart, ips: 192.168.56.1:32112_true,
+
+2021-03-30 17:30:59,663 INFO DEFAULT_GROUP@@mall-search {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:12000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:30:59,663 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-search, ips: 192.168.56.1:12000_true,
+
+2021-03-30 17:30:59,663 INFO DEFAULT_GROUP@@mall-search {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:12000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:30:59,663 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-search, ips: 192.168.56.1:12000_true,
+
+2021-03-30 17:30:59,664 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-search, ips: 192.168.56.1:12000_true,
+
+2021-03-30 17:30:59,664 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-search, ips: 192.168.56.1:12000_true,
+
+2021-03-30 17:31:20,652 INFO DEFAULT_GROUP@@mall-ware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:11000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:31:20,652 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 192.168.56.1:11000_true,
+
+2021-03-30 17:31:20,654 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 192.168.56.1:11000_true,
+
+2021-03-30 17:31:40,450 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:7000@DEFAULT@DEFAULT_GROUP@@mall-coupon, region: unknown, msg: client timeout after 15000, last beat: 1617096684617
+
+2021-03-30 17:31:47,198 INFO DEFAULT_GROUP@@mall-auth-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:31:47,199 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-auth-server, ips: 192.168.56.1:20000_true,
+
+2021-03-30 17:31:55,486 INFO DEFAULT_GROUP@@mall-coupon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:7000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 17:31:55,486 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-coupon, ips: 
+
+2021-03-30 17:32:06,257 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:10100@DEFAULT@DEFAULT_GROUP@@mall-product, region: unknown, msg: client timeout after 15000, last beat: 1617096711028
+
+2021-03-30 17:32:13,146 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:32:13,146 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 17:32:21,274 INFO DEFAULT_GROUP@@mall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:10100:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 17:32:21,274 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 
+
+2021-03-30 17:32:34,893 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:32:34,893 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 17:32:34,896 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:32:34,896 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 17:32:34,896 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 17:32:34,896 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 17:33:34,952 INFO DEFAULT_GROUP@@mall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:10100:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:33:34,952 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 192.168.56.1:10100_true,
+
+2021-03-30 17:33:34,955 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 192.168.56.1:10100_true,
+
+2021-03-30 17:33:38,050 INFO DEFAULT_GROUP@@mall-getaway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 17:33:38,050 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 192.168.56.1:88_true,
+
+2021-03-30 17:33:38,054 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 192.168.56.1:88_true,
+
+2021-03-30 18:38:10,377 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8000@DEFAULT@DEFAULT_GROUP@@mall-member, region: unknown, msg: client timeout after 15000, last beat: 1617100670958
+
+2021-03-30 18:38:24,426 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:9000@DEFAULT@DEFAULT_GROUP@@mall-order, region: unknown, msg: client timeout after 15000, last beat: 1617100689413
+
+2021-03-30 18:38:25,793 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 18:38:25,793 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 18:38:25,793 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 18:38:25,793 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 18:38:27,014 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 18:38:27,014 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 18:38:27,014 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 18:38:27,014 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 18:38:39,463 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 18:38:39,463 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 18:38:42,415 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 18:38:42,415 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 18:38:42,416 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 18:41:09,526 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:9000@DEFAULT@DEFAULT_GROUP@@mall-order, region: unknown, msg: client timeout after 15000, last beat: 1617100852590
+
+2021-03-30 18:41:10,982 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8000@DEFAULT@DEFAULT_GROUP@@mall-member, region: unknown, msg: client timeout after 15000, last beat: 1617100852164
+
+2021-03-30 18:41:22,964 INFO service: DEFAULT_GROUP@@mall-member {POS} {IP-ENABLED} valid: 192.168.56.1:8000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-03-30 18:41:22,975 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 18:41:22,975 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 18:41:24,555 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 18:41:24,555 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 18:41:32,688 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 18:41:32,688 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 18:41:32,695 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 18:43:46,506 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8000@DEFAULT@DEFAULT_GROUP@@mall-member, region: unknown, msg: client timeout after 15000, last beat: 1617101008203
+
+2021-03-30 18:43:49,998 INFO service: DEFAULT_GROUP@@mall-member {POS} {IP-ENABLED} valid: 192.168.56.1:8000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-03-30 18:43:50,036 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 18:43:50,036 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 18:47:15,948 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:9000@DEFAULT@DEFAULT_GROUP@@mall-order, region: unknown, msg: client timeout after 15000, last beat: 1617101218527
+
+2021-03-30 18:47:29,973 INFO service: DEFAULT_GROUP@@mall-order {POS} {IP-ENABLED} valid: 192.168.56.1:9000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-03-30 18:47:29,974 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 19:05:39,236 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 19:05:39,237 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 19:05:51,017 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 19:05:51,017 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 19:05:51,017 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 19:06:48,358 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:9000@DEFAULT@DEFAULT_GROUP@@mall-order, region: unknown, msg: client timeout after 15000, last beat: 1617102391043
+
+2021-03-30 19:07:01,069 INFO service: DEFAULT_GROUP@@mall-order {POS} {IP-ENABLED} valid: 192.168.56.1:9000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-03-30 19:07:01,071 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 19:07:40,488 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8000@DEFAULT@DEFAULT_GROUP@@mall-member, region: unknown, msg: client timeout after 15000, last beat: 1617102443090
+
+2021-03-30 19:07:47,391 INFO service: DEFAULT_GROUP@@mall-member {POS} {IP-ENABLED} valid: 192.168.56.1:8000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-03-30 19:07:47,392 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 19:07:47,392 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 19:10:00,667 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8000@DEFAULT@DEFAULT_GROUP@@mall-member, region: unknown, msg: client timeout after 15000, last beat: 1617102582502
+
+2021-03-30 19:10:15,684 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 19:10:15,684 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 19:10:15,684 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 19:10:15,684 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 19:10:15,724 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 19:10:15,724 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 19:10:30,313 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 19:10:30,313 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 19:10:30,313 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 19:10:30,313 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 19:10:30,380 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 19:10:30,380 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 19:36:40,094 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:9000@DEFAULT@DEFAULT_GROUP@@mall-order, region: unknown, msg: client timeout after 15000, last beat: 1617104183078
+
+2021-03-30 19:36:52,466 INFO service: DEFAULT_GROUP@@mall-order {POS} {IP-ENABLED} valid: 192.168.56.1:9000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-03-30 19:36:52,468 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 19:38:25,219 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:9000@DEFAULT@DEFAULT_GROUP@@mall-order, region: unknown, msg: client timeout after 15000, last beat: 1617104287574
+
+2021-03-30 19:38:40,307 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 19:38:40,307 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 19:38:42,800 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 19:38:42,800 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 19:38:42,803 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 19:39:30,254 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:9000@DEFAULT@DEFAULT_GROUP@@mall-order, region: unknown, msg: client timeout after 15000, last beat: 1617104352827
+
+2021-03-30 19:39:45,331 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 19:39:45,331 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 19:39:46,966 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 19:39:46,966 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 19:40:09,147 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 19:40:09,147 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 19:40:37,795 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 19:40:37,795 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 19:40:37,796 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 19:44:45,410 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:9000@DEFAULT@DEFAULT_GROUP@@mall-order, region: unknown, msg: client timeout after 15000, last beat: 1617104666951
+
+2021-03-30 19:45:00,431 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 19:45:00,431 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 19:46:39,155 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 19:46:39,155 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 19:54:19,157 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 19:54:19,157 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 19:55:14,853 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 19:55:14,853 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 19:55:14,853 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 19:57:36,216 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:9000@DEFAULT@DEFAULT_GROUP@@mall-order, region: unknown, msg: client timeout after 15000, last beat: 1617105440183
+
+2021-03-30 19:57:51,231 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 19:57:51,231 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 19:58:04,862 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 19:58:04,862 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 19:58:04,891 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 19:59:56,745 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:9000@DEFAULT@DEFAULT_GROUP@@mall-order, region: unknown, msg: client timeout after 15000, last beat: 1617105579958
+
+2021-03-30 20:00:11,750 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 20:00:11,750 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 20:00:15,262 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 20:00:15,262 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 20:00:15,277 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 21:28:53,204 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 21:28:53,234 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 21:29:16,230 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 21:29:16,230 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 21:29:16,231 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 21:32:18,244 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:9000@DEFAULT@DEFAULT_GROUP@@mall-order, region: unknown, msg: client timeout after 15000, last beat: 1617111121268
+
+2021-03-30 21:32:33,958 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 21:32:33,958 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 21:32:55,336 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 21:32:55,336 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 21:33:48,971 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8000@DEFAULT@DEFAULT_GROUP@@mall-member, region: unknown, msg: client timeout after 15000, last beat: 1617111213898
+
+2021-03-30 21:34:03,635 INFO service: DEFAULT_GROUP@@mall-member {POS} {IP-ENABLED} valid: 192.168.56.1:8000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-03-30 21:34:03,725 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 21:34:03,725 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 21:35:44,415 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8000@DEFAULT@DEFAULT_GROUP@@mall-member, region: unknown, msg: client timeout after 15000, last beat: 1617111329322
+
+2021-03-30 21:35:59,778 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 21:35:59,778 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 21:35:59,778 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 21:35:59,778 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 21:35:59,778 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 21:35:59,778 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 21:36:23,317 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 21:36:23,317 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 21:36:23,317 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 21:36:23,318 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 21:36:23,337 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 21:36:23,337 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.56.1:8000_true,
+
+2021-03-30 21:46:35,396 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:9000@DEFAULT@DEFAULT_GROUP@@mall-order, region: unknown, msg: client timeout after 15000, last beat: 1617111976174
+
+2021-03-30 21:46:50,688 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 21:46:50,688 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
+2021-03-30 21:47:13,714 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 21:47:13,714 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 21:47:13,717 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 192.168.56.1:9000_true,
+
+2021-03-30 22:06:21,681 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 22:06:21,681 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.56.1:8080_true,
+
+2021-03-30 22:06:21,707 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 22:06:21,707 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.56.1:8080_true,
+
+2021-03-30 22:06:21,707 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.56.1:8080_true,
+
+2021-03-30 22:06:21,708 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.56.1:8080_true,
+
+2021-03-30 22:20:51,945 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:88@DEFAULT@DEFAULT_GROUP@@mall-getaway, region: unknown, msg: client timeout after 15000, last beat: 1617114031951
+
+2021-03-30 22:20:56,605 INFO service: DEFAULT_GROUP@@mall-getaway {POS} {IP-ENABLED} valid: 192.168.56.1:88@DEFAULT, region: unknown, msg: client beat ok
+
+2021-03-30 22:20:56,620 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 192.168.56.1:88_true,
+
+2021-03-30 22:23:02,170 INFO DEFAULT_GROUP@@mall-coupon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-03-30 22:23:02,170 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-coupon, ips: 192.168.56.1:7000_true,
+
+2021-03-30 22:43:12,992 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:88@DEFAULT@DEFAULT_GROUP@@mall-getaway, region: unknown, msg: client timeout after 15000, last beat: 1617115373802
+
+2021-03-30 22:43:12,992 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:32112@DEFAULT@DEFAULT_GROUP@@mall-cart, region: unknown, msg: client timeout after 15000, last beat: 1617115377122
+
+2021-03-30 22:43:12,992 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8080@DEFAULT@DEFAULT_GROUP@@renren-fast, region: unknown, msg: client timeout after 15000, last beat: 1617115374891
+
+2021-03-30 22:43:12,992 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:10100@DEFAULT@DEFAULT_GROUP@@mall-product, region: unknown, msg: client timeout after 15000, last beat: 1617115373130
+
+2021-03-30 22:43:16,464 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8000@DEFAULT@DEFAULT_GROUP@@mall-member, region: unknown, msg: client timeout after 15000, last beat: 1617115378250
+
+2021-03-30 22:43:17,992 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:11000@DEFAULT@DEFAULT_GROUP@@mall-ware, region: unknown, msg: client timeout after 15000, last beat: 1617115381538
+
+2021-03-30 22:43:17,992 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:12000@DEFAULT@DEFAULT_GROUP@@mall-search, region: unknown, msg: client timeout after 15000, last beat: 1617115378187
+
+2021-03-30 22:43:17,992 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:20000@DEFAULT@DEFAULT_GROUP@@mall-auth-server, region: unknown, msg: client timeout after 15000, last beat: 1617115381390
+
+2021-03-30 22:43:21,466 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:9000@DEFAULT@DEFAULT_GROUP@@mall-order, region: unknown, msg: client timeout after 15000, last beat: 1617115381919
+
+2021-03-30 22:43:22,993 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:7000@DEFAULT@DEFAULT_GROUP@@mall-coupon, region: unknown, msg: client timeout after 15000, last beat: 1617115383388
+
+2021-03-30 22:43:29,285 INFO DEFAULT_GROUP@@mall-search {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:12000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 22:43:29,653 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-search, ips: 
+
+2021-03-30 22:43:29,653 INFO DEFAULT_GROUP@@mall-search {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:12000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 22:43:29,653 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-search, ips: 
+
+2021-03-30 22:43:29,710 INFO DEFAULT_GROUP@@mall-getaway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:88:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 22:43:29,710 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-getaway, ips: 
+
+2021-03-30 22:43:29,710 INFO DEFAULT_GROUP@@mall-cart {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:32112:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 22:43:29,710 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-cart, ips: 
+
+2021-03-30 22:43:29,721 INFO DEFAULT_GROUP@@mall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:10100:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 22:43:29,721 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 
+
+2021-03-30 22:43:29,721 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 22:43:29,721 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2021-03-30 22:43:29,721 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 22:43:29,721 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2021-03-30 22:43:29,721 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2021-03-30 22:43:29,722 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2021-03-30 22:43:31,469 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 22:43:31,470 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 22:43:31,470 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 22:43:31,470 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 22:43:31,557 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 22:43:31,557 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2021-03-30 22:43:34,043 INFO DEFAULT_GROUP@@mall-auth-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:20000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 22:43:34,043 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-auth-server, ips: 
+
+2021-03-30 22:43:34,043 INFO DEFAULT_GROUP@@mall-ware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:11000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 22:43:34,043 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 
+
+2021-03-30 22:43:34,043 INFO DEFAULT_GROUP@@mall-coupon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:7000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 22:43:34,043 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-coupon, ips: 
+
+2021-03-30 22:43:36,471 INFO DEFAULT_GROUP@@mall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:9000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-03-30 22:43:36,471 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-order, ips: 
+
