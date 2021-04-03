@@ -15,7 +15,7 @@ springboot商城项目学习
 |Mysql|持久层数据库|
 |Druid|数据库连接池|
 |Nacos|注册发现中心|
-|SpringCloud Getaway|分布式网关|
+|SpringCloud Gateway|分布式网关|
 |SpringCloud Openfeign|远程调用|
 |Thymeleaf|模板引擎|
 |Redis|缓存|
