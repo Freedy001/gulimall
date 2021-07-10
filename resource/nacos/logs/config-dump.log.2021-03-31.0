@@ -1,0 +1,16 @@
+2021-03-31 09:35:04,308 INFO [dump-all-ok] mall-coupon.properties+DEFAULT_GROUP, 1612030552106, length=31, md5=6cb436c05b7b53ae8c3e1f799c2480f1
+
+2021-03-31 09:35:04,360 INFO [dump-all-ok] mall-coupon.properties+DEFAULT_GROUP, 1612030391755, length=31, md5=1a8d9785a2503f723f337d7ff0140e6a
+
+2021-03-31 09:35:04,361 INFO [dump-all-ok] mall-coupon.properties+DEFAULT_GROUP, 1612030395962, length=31, md5=1a8d9785a2503f723f337d7ff0140e6a
+
+2021-03-31 09:35:04,362 INFO [dump-all-ok] datasource.yml+dev, 1612155195462, length=183, md5=3f762d9dcc4fbf6cec98c6df191cd04a
+
+2021-03-31 09:35:04,362 INFO [dump-all-ok] mybatis.yml+dev, 1612154301754, length=116, md5=3c8cba7df1687e1fbe635fdfa0352287
+
+2021-03-31 09:35:04,363 INFO [dump-all-ok] other.yml+dev, 1612154366044, length=147, md5=8c393b61fb94847f2f463454f2151724
+
+2021-03-31 09:35:04,363 INFO [dump-all-ok] mall-getaway.yml+DEFAULT_GROUP, 1612156796877, length=53, md5=b23991680250e0bd14072f7740f33dbe
+
+2021-03-31 09:35:04,363 INFO [dump-all-ok] oss.yml+DEFAULT_GROUP, 1612286977499, length=190, md5=5989a8cb649f29b4e29ba5b48df9e54e
+

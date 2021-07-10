@@ -1,0 +1,12 @@
+spring:
+  thymeleaf:
+    cache: false
+  redis:
+    host: 192.168.56.10
+    port: 6379
+
+freedymall:
+  thread:
+    core-size: 50
+    max-size: 200
+    keep-alive-time: 10

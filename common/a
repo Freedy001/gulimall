@@ -1,0 +1,834 @@
+{
+  "attrs": [
+    {
+      "attrId": 3,
+      "attrName": "GPU型号",
+      "attrValue": [
+        "A13",
+        "骁龙888",
+        "Mali-G78"
+      ]
+    },
+    {
+      "attrId": 6,
+      "attrName": "机身长度（mm）",
+      "attrValue": [
+        "146.7mm",
+        "164.3mm",
+        "162.9mm"
+      ]
+    },
+    {
+      "attrId": 7,
+      "attrName": "机身重量（g）",
+      "attrValue": [
+        "162g",
+        "194g",
+        "约212克（含电池）"
+      ]
+    },
+    {
+      "attrId": 8,
+      "attrName": "屏幕材质类型",
+      "attrValue": [
+        "OLED"
+      ]
+    },
+    {
+      "attrId": 9,
+      "attrName": "屏幕刷新率",
+      "attrValue": [
+        "60HZ",
+        "90HZ"
+      ]
+    },
+    {
+      "attrId": 10,
+      "attrName": "机身材质工艺",
+      "attrValue": [
+        "美铝合金",
+        "陶瓷"
+      ]
+    }
+  ],
+  "brands": [
+    {
+      "brandId": 3,
+      "brandImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-03/1ec0536a-2556-4e82-86de-d9f0c61b2886_tropical-5074304.jpg",
+      "brandName": "苹果"
+    },
+    {
+      "brandId": 2,
+      "brandImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-03/74b94fa7-8874-4386-81ec-d5885c1276d2_)RAS(52PT$0MGSI`5EAK96N.gif",
+      "brandName": "小米"
+    },
+    {
+      "brandId": 1,
+      "brandImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-04/56bd13de-8aa7-4442-807d-0484e580cc07_0F1419E94F18F7E1A8F960394C0C51C8.jpg",
+      "brandName": "华为"
+    }
+  ],
+  "catalogs": [
+    {
+      "catalogId": 225,
+      "catalogName": "手机"
+    }
+  ],
+  "pageNum": 1,
+  "product": [
+    {
+      "attrs": [
+        {
+          "attrId": 6,
+          "attrName": "机身长度（mm）",
+          "attrValue": "162.9mm"
+        },
+        {
+          "attrId": 7,
+          "attrName": "机身重量（g）",
+          "attrValue": "约212克（含电池）"
+        },
+        {
+          "attrId": 8,
+          "attrName": "屏幕材质类型",
+          "attrValue": "OLED"
+        },
+        {
+          "attrId": 9,
+          "attrName": "屏幕刷新率",
+          "attrValue": "90HZ"
+        },
+        {
+          "attrId": 10,
+          "attrName": "机身材质工艺",
+          "attrValue": "陶瓷"
+        },
+        {
+          "attrId": 3,
+          "attrName": "GPU型号",
+          "attrValue": "Mali-G78"
+        }
+      ],
+      "brandId": 1,
+      "brandImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-04/56bd13de-8aa7-4442-807d-0484e580cc07_0F1419E94F18F7E1A8F960394C0C51C8.jpg",
+      "brandName": "华为",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 1,
+      "skuImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-06//dade88c3-b3cd-4298-8a64-f7cc0eac2d5e_2a542499846ace02.jpg",
+      "skuPrice": 7988.0,
+      "skuTitle": "华为 HUAWEI P40 Pro+ 8GB 陶瓷黑  麒麟990 5G SoC芯片 5000万超感知徕卡五摄 100倍双目变焦",
+      "spuId": 7
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 6,
+          "attrName": "机身长度（mm）",
+          "attrValue": "162.9mm"
+        },
+        {
+          "attrId": 7,
+          "attrName": "机身重量（g）",
+          "attrValue": "约212克（含电池）"
+        },
+        {
+          "attrId": 8,
+          "attrName": "屏幕材质类型",
+          "attrValue": "OLED"
+        },
+        {
+          "attrId": 9,
+          "attrName": "屏幕刷新率",
+          "attrValue": "90HZ"
+        },
+        {
+          "attrId": 10,
+          "attrName": "机身材质工艺",
+          "attrValue": "陶瓷"
+        },
+        {
+          "attrId": 3,
+          "attrName": "GPU型号",
+          "attrValue": "Mali-G78"
+        }
+      ],
+      "brandId": 1,
+      "brandImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-04/56bd13de-8aa7-4442-807d-0484e580cc07_0F1419E94F18F7E1A8F960394C0C51C8.jpg",
+      "brandName": "华为",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 2,
+      "skuImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-06//53c324b2-bc1e-4b96-83da-d1800cebfef7_062b0c503309f0ea.jpg",
+      "skuPrice": 7988.0,
+      "skuTitle": "华为 HUAWEI P40 Pro+ 8GB 陶瓷白  麒麟990 5G SoC芯片 5000万超感知徕卡五摄 100倍双目变焦",
+      "spuId": 7
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 6,
+          "attrName": "机身长度（mm）",
+          "attrValue": "162.9mm"
+        },
+        {
+          "attrId": 7,
+          "attrName": "机身重量（g）",
+          "attrValue": "约212克（含电池）"
+        },
+        {
+          "attrId": 8,
+          "attrName": "屏幕材质类型",
+          "attrValue": "OLED"
+        },
+        {
+          "attrId": 9,
+          "attrName": "屏幕刷新率",
+          "attrValue": "90HZ"
+        },
+        {
+          "attrId": 10,
+          "attrName": "机身材质工艺",
+          "attrValue": "陶瓷"
+        },
+        {
+          "attrId": 3,
+          "attrName": "GPU型号",
+          "attrValue": "Mali-G78"
+        }
+      ],
+      "brandId": 1,
+      "brandImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-04/56bd13de-8aa7-4442-807d-0484e580cc07_0F1419E94F18F7E1A8F960394C0C51C8.jpg",
+      "brandName": "华为",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 3,
+      "skuImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-06//dade88c3-b3cd-4298-8a64-f7cc0eac2d5e_2a542499846ace02.jpg",
+      "skuPrice": 8888.0,
+      "skuTitle": "华为 HUAWEI P40 Pro+ 12GB 陶瓷黑  麒麟990 5G SoC芯片 5000万超感知徕卡五摄 100倍双目变焦",
+      "spuId": 7
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 6,
+          "attrName": "机身长度（mm）",
+          "attrValue": "162.9mm"
+        },
+        {
+          "attrId": 7,
+          "attrName": "机身重量（g）",
+          "attrValue": "约212克（含电池）"
+        },
+        {
+          "attrId": 8,
+          "attrName": "屏幕材质类型",
+          "attrValue": "OLED"
+        },
+        {
+          "attrId": 9,
+          "attrName": "屏幕刷新率",
+          "attrValue": "90HZ"
+        },
+        {
+          "attrId": 10,
+          "attrName": "机身材质工艺",
+          "attrValue": "陶瓷"
+        },
+        {
+          "attrId": 3,
+          "attrName": "GPU型号",
+          "attrValue": "Mali-G78"
+        }
+      ],
+      "brandId": 1,
+      "brandImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-04/56bd13de-8aa7-4442-807d-0484e580cc07_0F1419E94F18F7E1A8F960394C0C51C8.jpg",
+      "brandName": "华为",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 4,
+      "skuImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-06//53c324b2-bc1e-4b96-83da-d1800cebfef7_062b0c503309f0ea.jpg",
+      "skuPrice": 8888.0,
+      "skuTitle": "华为 HUAWEI P40 Pro+ 12GB 陶瓷白  麒麟990 5G SoC芯片 5000万超感知徕卡五摄 100倍双目变焦",
+      "spuId": 7
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 6,
+          "attrName": "机身长度（mm）",
+          "attrValue": "146.7mm"
+        },
+        {
+          "attrId": 7,
+          "attrName": "机身重量（g）",
+          "attrValue": "162g"
+        },
+        {
+          "attrId": 8,
+          "attrName": "屏幕材质类型",
+          "attrValue": "OLED"
+        },
+        {
+          "attrId": 9,
+          "attrName": "屏幕刷新率",
+          "attrValue": "60HZ"
+        },
+        {
+          "attrId": 10,
+          "attrName": "机身材质工艺",
+          "attrValue": "美铝合金"
+        },
+        {
+          "attrId": 3,
+          "attrName": "GPU型号",
+          "attrValue": "A13"
+        }
+      ],
+      "brandId": 3,
+      "brandImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-03/1ec0536a-2556-4e82-86de-d9f0c61b2886_tropical-5074304.jpg",
+      "brandName": "苹果",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 5,
+      "skuImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-07//9caf72be-ecb7-4246-86fb-9feed4ad80c7_7f2900c59ccd1a01.jpg",
+      "skuPrice": 6299.0,
+      "skuTitle": "Apple iPhone 12 6GB 黑色 64GB",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 6,
+          "attrName": "机身长度（mm）",
+          "attrValue": "146.7mm"
+        },
+        {
+          "attrId": 7,
+          "attrName": "机身重量（g）",
+          "attrValue": "162g"
+        },
+        {
+          "attrId": 8,
+          "attrName": "屏幕材质类型",
+          "attrValue": "OLED"
+        },
+        {
+          "attrId": 9,
+          "attrName": "屏幕刷新率",
+          "attrValue": "60HZ"
+        },
+        {
+          "attrId": 10,
+          "attrName": "机身材质工艺",
+          "attrValue": "美铝合金"
+        },
+        {
+          "attrId": 3,
+          "attrName": "GPU型号",
+          "attrValue": "A13"
+        }
+      ],
+      "brandId": 3,
+      "brandImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-03/1ec0536a-2556-4e82-86de-d9f0c61b2886_tropical-5074304.jpg",
+      "brandName": "苹果",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 6,
+      "skuImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-07//9caf72be-ecb7-4246-86fb-9feed4ad80c7_7f2900c59ccd1a01.jpg",
+      "skuPrice": 6799.0,
+      "skuTitle": "Apple iPhone 12 6GB 黑色 128GB",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 6,
+          "attrName": "机身长度（mm）",
+          "attrValue": "146.7mm"
+        },
+        {
+          "attrId": 7,
+          "attrName": "机身重量（g）",
+          "attrValue": "162g"
+        },
+        {
+          "attrId": 8,
+          "attrName": "屏幕材质类型",
+          "attrValue": "OLED"
+        },
+        {
+          "attrId": 9,
+          "attrName": "屏幕刷新率",
+          "attrValue": "60HZ"
+        },
+        {
+          "attrId": 10,
+          "attrName": "机身材质工艺",
+          "attrValue": "美铝合金"
+        },
+        {
+          "attrId": 3,
+          "attrName": "GPU型号",
+          "attrValue": "A13"
+        }
+      ],
+      "brandId": 3,
+      "brandImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-03/1ec0536a-2556-4e82-86de-d9f0c61b2886_tropical-5074304.jpg",
+      "brandName": "苹果",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 7,
+      "skuImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-07//9caf72be-ecb7-4246-86fb-9feed4ad80c7_7f2900c59ccd1a01.jpg",
+      "skuPrice": 7599.0,
+      "skuTitle": "Apple iPhone 12 6GB 黑色 256GB",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 6,
+          "attrName": "机身长度（mm）",
+          "attrValue": "146.7mm"
+        },
+        {
+          "attrId": 7,
+          "attrName": "机身重量（g）",
+          "attrValue": "162g"
+        },
+        {
+          "attrId": 8,
+          "attrName": "屏幕材质类型",
+          "attrValue": "OLED"
+        },
+        {
+          "attrId": 9,
+          "attrName": "屏幕刷新率",
+          "attrValue": "60HZ"
+        },
+        {
+          "attrId": 10,
+          "attrName": "机身材质工艺",
+          "attrValue": "美铝合金"
+        },
+        {
+          "attrId": 3,
+          "attrName": "GPU型号",
+          "attrValue": "A13"
+        }
+      ],
+      "brandId": 3,
+      "brandImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-03/1ec0536a-2556-4e82-86de-d9f0c61b2886_tropical-5074304.jpg",
+      "brandName": "苹果",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 8,
+      "skuImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-07//9caf72be-ecb7-4246-86fb-9feed4ad80c7_7f2900c59ccd1a01.jpg",
+      "skuPrice": 8299.0,
+      "skuTitle": "Apple iPhone 12 6GB 黑色 512GB",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 6,
+          "attrName": "机身长度（mm）",
+          "attrValue": "146.7mm"
+        },
+        {
+          "attrId": 7,
+          "attrName": "机身重量（g）",
+          "attrValue": "162g"
+        },
+        {
+          "attrId": 8,
+          "attrName": "屏幕材质类型",
+          "attrValue": "OLED"
+        },
+        {
+          "attrId": 9,
+          "attrName": "屏幕刷新率",
+          "attrValue": "60HZ"
+        },
+        {
+          "attrId": 10,
+          "attrName": "机身材质工艺",
+          "attrValue": "美铝合金"
+        },
+        {
+          "attrId": 3,
+          "attrName": "GPU型号",
+          "attrValue": "A13"
+        }
+      ],
+      "brandId": 3,
+      "brandImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-03/1ec0536a-2556-4e82-86de-d9f0c61b2886_tropical-5074304.jpg",
+      "brandName": "苹果",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 9,
+      "skuImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-07//ff3d8f8c-4fea-4ba1-849f-a266d813b8be_5f9bd9f11d4582f0.jpg",
+      "skuPrice": 6299.0,
+      "skuTitle": "Apple iPhone 12 6GB 白色 64GB",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 6,
+          "attrName": "机身长度（mm）",
+          "attrValue": "146.7mm"
+        },
+        {
+          "attrId": 7,
+          "attrName": "机身重量（g）",
+          "attrValue": "162g"
+        },
+        {
+          "attrId": 8,
+          "attrName": "屏幕材质类型",
+          "attrValue": "OLED"
+        },
+        {
+          "attrId": 9,
+          "attrName": "屏幕刷新率",
+          "attrValue": "60HZ"
+        },
+        {
+          "attrId": 10,
+          "attrName": "机身材质工艺",
+          "attrValue": "美铝合金"
+        },
+        {
+          "attrId": 3,
+          "attrName": "GPU型号",
+          "attrValue": "A13"
+        }
+      ],
+      "brandId": 3,
+      "brandImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-03/1ec0536a-2556-4e82-86de-d9f0c61b2886_tropical-5074304.jpg",
+      "brandName": "苹果",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 10,
+      "skuImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-07//ff3d8f8c-4fea-4ba1-849f-a266d813b8be_5f9bd9f11d4582f0.jpg",
+      "skuPrice": 6799.0,
+      "skuTitle": "Apple iPhone 12 6GB 白色 128GB",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 6,
+          "attrName": "机身长度（mm）",
+          "attrValue": "146.7mm"
+        },
+        {
+          "attrId": 7,
+          "attrName": "机身重量（g）",
+          "attrValue": "162g"
+        },
+        {
+          "attrId": 8,
+          "attrName": "屏幕材质类型",
+          "attrValue": "OLED"
+        },
+        {
+          "attrId": 9,
+          "attrName": "屏幕刷新率",
+          "attrValue": "60HZ"
+        },
+        {
+          "attrId": 10,
+          "attrName": "机身材质工艺",
+          "attrValue": "美铝合金"
+        },
+        {
+          "attrId": 3,
+          "attrName": "GPU型号",
+          "attrValue": "A13"
+        }
+      ],
+      "brandId": 3,
+      "brandImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-03/1ec0536a-2556-4e82-86de-d9f0c61b2886_tropical-5074304.jpg",
+      "brandName": "苹果",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 11,
+      "skuImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-07//ff3d8f8c-4fea-4ba1-849f-a266d813b8be_5f9bd9f11d4582f0.jpg",
+      "skuPrice": 7599.0,
+      "skuTitle": "Apple iPhone 12 6GB 白色 256GB",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 6,
+          "attrName": "机身长度（mm）",
+          "attrValue": "146.7mm"
+        },
+        {
+          "attrId": 7,
+          "attrName": "机身重量（g）",
+          "attrValue": "162g"
+        },
+        {
+          "attrId": 8,
+          "attrName": "屏幕材质类型",
+          "attrValue": "OLED"
+        },
+        {
+          "attrId": 9,
+          "attrName": "屏幕刷新率",
+          "attrValue": "60HZ"
+        },
+        {
+          "attrId": 10,
+          "attrName": "机身材质工艺",
+          "attrValue": "美铝合金"
+        },
+        {
+          "attrId": 3,
+          "attrName": "GPU型号",
+          "attrValue": "A13"
+        }
+      ],
+      "brandId": 3,
+      "brandImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-03/1ec0536a-2556-4e82-86de-d9f0c61b2886_tropical-5074304.jpg",
+      "brandName": "苹果",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 12,
+      "skuImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-07//ff3d8f8c-4fea-4ba1-849f-a266d813b8be_5f9bd9f11d4582f0.jpg",
+      "skuPrice": 8299.0,
+      "skuTitle": "Apple iPhone 12 6GB 白色 512GB",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 6,
+          "attrName": "机身长度（mm）",
+          "attrValue": "146.7mm"
+        },
+        {
+          "attrId": 7,
+          "attrName": "机身重量（g）",
+          "attrValue": "162g"
+        },
+        {
+          "attrId": 8,
+          "attrName": "屏幕材质类型",
+          "attrValue": "OLED"
+        },
+        {
+          "attrId": 9,
+          "attrName": "屏幕刷新率",
+          "attrValue": "60HZ"
+        },
+        {
+          "attrId": 10,
+          "attrName": "机身材质工艺",
+          "attrValue": "美铝合金"
+        },
+        {
+          "attrId": 3,
+          "attrName": "GPU型号",
+          "attrValue": "A13"
+        }
+      ],
+      "brandId": 3,
+      "brandImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-03/1ec0536a-2556-4e82-86de-d9f0c61b2886_tropical-5074304.jpg",
+      "brandName": "苹果",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 13,
+      "skuImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-07//04f0bf06-43fd-4f7e-87b8-698941cd4139_42d06bef8e9ab421.jpg",
+      "skuPrice": 6299.0,
+      "skuTitle": "Apple iPhone 12 6GB 红色 64GB",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 6,
+          "attrName": "机身长度（mm）",
+          "attrValue": "146.7mm"
+        },
+        {
+          "attrId": 7,
+          "attrName": "机身重量（g）",
+          "attrValue": "162g"
+        },
+        {
+          "attrId": 8,
+          "attrName": "屏幕材质类型",
+          "attrValue": "OLED"
+        },
+        {
+          "attrId": 9,
+          "attrName": "屏幕刷新率",
+          "attrValue": "60HZ"
+        },
+        {
+          "attrId": 10,
+          "attrName": "机身材质工艺",
+          "attrValue": "美铝合金"
+        },
+        {
+          "attrId": 3,
+          "attrName": "GPU型号",
+          "attrValue": "A13"
+        }
+      ],
+      "brandId": 3,
+      "brandImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-03/1ec0536a-2556-4e82-86de-d9f0c61b2886_tropical-5074304.jpg",
+      "brandName": "苹果",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 14,
+      "skuImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-07//04f0bf06-43fd-4f7e-87b8-698941cd4139_42d06bef8e9ab421.jpg",
+      "skuPrice": 6799.0,
+      "skuTitle": "Apple iPhone 12 6GB 红色 128GB",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 6,
+          "attrName": "机身长度（mm）",
+          "attrValue": "146.7mm"
+        },
+        {
+          "attrId": 7,
+          "attrName": "机身重量（g）",
+          "attrValue": "162g"
+        },
+        {
+          "attrId": 8,
+          "attrName": "屏幕材质类型",
+          "attrValue": "OLED"
+        },
+        {
+          "attrId": 9,
+          "attrName": "屏幕刷新率",
+          "attrValue": "60HZ"
+        },
+        {
+          "attrId": 10,
+          "attrName": "机身材质工艺",
+          "attrValue": "美铝合金"
+        },
+        {
+          "attrId": 3,
+          "attrName": "GPU型号",
+          "attrValue": "A13"
+        }
+      ],
+      "brandId": 3,
+      "brandImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-03/1ec0536a-2556-4e82-86de-d9f0c61b2886_tropical-5074304.jpg",
+      "brandName": "苹果",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 15,
+      "skuImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-07//04f0bf06-43fd-4f7e-87b8-698941cd4139_42d06bef8e9ab421.jpg",
+      "skuPrice": 7599.0,
+      "skuTitle": "Apple iPhone 12 6GB 红色 256GB",
+      "spuId": 8
+    },
+    {
+      "attrs": [
+        {
+          "attrId": 6,
+          "attrName": "机身长度（mm）",
+          "attrValue": "146.7mm"
+        },
+        {
+          "attrId": 7,
+          "attrName": "机身重量（g）",
+          "attrValue": "162g"
+        },
+        {
+          "attrId": 8,
+          "attrName": "屏幕材质类型",
+          "attrValue": "OLED"
+        },
+        {
+          "attrId": 9,
+          "attrName": "屏幕刷新率",
+          "attrValue": "60HZ"
+        },
+        {
+          "attrId": 10,
+          "attrName": "机身材质工艺",
+          "attrValue": "美铝合金"
+        },
+        {
+          "attrId": 3,
+          "attrName": "GPU型号",
+          "attrValue": "A13"
+        }
+      ],
+      "brandId": 3,
+      "brandImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-03/1ec0536a-2556-4e82-86de-d9f0c61b2886_tropical-5074304.jpg",
+      "brandName": "苹果",
+      "catalogId": 225,
+      "catalogName": "手机",
+      "hasStock": true,
+      "hotScore": 0,
+      "saleCount": 0,
+      "skuId": 16,
+      "skuImg": "https://freedy.oss-cn-shanghai.aliyuncs.com/2021-02-07//04f0bf06-43fd-4f7e-87b8-698941cd4139_42d06bef8e9ab421.jpg",
+      "skuPrice": 8299.0,
+      "skuTitle": "Apple iPhone 12 6GB 红色 512GB",
+      "spuId": 8
+    }
+  ],
+  "total": 40,
+  "totalPage": 3
+}

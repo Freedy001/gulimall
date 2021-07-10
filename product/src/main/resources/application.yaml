@@ -1,0 +1,42 @@
+spring:
+  datasource:
+    username: freedy
+    password: Kz99596589
+    url: jdbc:mysql://freedyamazing.rwlb.rds.aliyuncs.com:3306/mall_pms?serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: mall-product
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+  thymeleaf:
+    cache: false
+  redis:
+    host: 192.168.56.10
+  session:
+    store-type: redis
+#    password: Kz99596589
+freedymall:
+  thread:
+    core-size: 50
+    max-size: 200
+    keep-alive-time: 10
+
+
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+server:
+  port: 11111
+
+logging:
+  level:
+    com.freedy.mall.product: error

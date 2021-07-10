@@ -1,0 +1,154 @@
+2021-04-02 09:29:46,015 INFO DEFAULT_GROUP@@mall-coupon is changed, add it to push queue.
+
+2021-04-02 09:30:21,047 INFO DEFAULT_GROUP@@mall-getaway is changed, add it to push queue.
+
+2021-04-02 09:31:12,108 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2021-04-02 09:31:17,036 INFO DEFAULT_GROUP@@third-party is changed, add it to push queue.
+
+2021-04-02 09:33:36,217 INFO DEFAULT_GROUP@@mall-seckill is changed, add it to push queue.
+
+2021-04-02 09:34:17,274 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2021-04-02 09:34:33,398 INFO DEFAULT_GROUP@@mall-order is changed, add it to push queue.
+
+2021-04-02 09:34:44,956 INFO DEFAULT_GROUP@@mall-auth-server is changed, add it to push queue.
+
+2021-04-02 09:34:51,842 INFO DEFAULT_GROUP@@mall-cart is changed, add it to push queue.
+
+2021-04-02 09:35:01,509 INFO DEFAULT_GROUP@@mall-search is changed, add it to push queue.
+
+2021-04-02 09:38:16,145 INFO DEFAULT_GROUP@@mall-ware is changed, add it to push queue.
+
+2021-04-02 09:40:12,022 INFO DEFAULT_GROUP@@mall-search is changed, add it to push queue.
+
+2021-04-02 09:40:12,028 INFO DEFAULT_GROUP@@mall-coupon is changed, add it to push queue.
+
+2021-04-02 09:40:12,577 INFO DEFAULT_GROUP@@mall-getaway is changed, add it to push queue.
+
+2021-04-02 09:40:12,577 INFO DEFAULT_GROUP@@mall-cart is changed, add it to push queue.
+
+2021-04-02 09:40:13,269 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2021-04-02 09:40:15,389 INFO DEFAULT_GROUP@@mall-auth-server is changed, add it to push queue.
+
+2021-04-02 09:40:16,484 INFO DEFAULT_GROUP@@mall-ware is changed, add it to push queue.
+
+2021-04-02 09:40:18,039 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2021-04-02 09:40:18,265 INFO DEFAULT_GROUP@@third-party is changed, add it to push queue.
+
+2021-04-02 09:40:18,835 INFO DEFAULT_GROUP@@mall-order is changed, add it to push queue.
+
+2021-04-02 09:40:22,112 INFO DEFAULT_GROUP@@mall-seckill is changed, add it to push queue.
+
+2021-04-02 09:40:27,310 INFO DEFAULT_GROUP@@mall-coupon is changed, add it to push queue.
+
+2021-04-02 09:40:27,310 INFO DEFAULT_GROUP@@mall-search is changed, add it to push queue.
+
+2021-04-02 09:40:27,599 INFO DEFAULT_GROUP@@mall-getaway is changed, add it to push queue.
+
+2021-04-02 09:40:27,614 INFO DEFAULT_GROUP@@mall-cart is changed, add it to push queue.
+
+2021-04-02 09:40:28,279 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2021-04-02 09:40:30,418 INFO DEFAULT_GROUP@@mall-auth-server is changed, add it to push queue.
+
+2021-04-02 09:40:31,496 INFO DEFAULT_GROUP@@mall-ware is changed, add it to push queue.
+
+2021-04-02 09:40:33,051 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2021-04-02 09:40:33,280 INFO DEFAULT_GROUP@@third-party is changed, add it to push queue.
+
+2021-04-02 09:40:33,852 INFO DEFAULT_GROUP@@mall-order is changed, add it to push queue.
+
+2021-04-02 09:40:37,126 INFO DEFAULT_GROUP@@mall-seckill is changed, add it to push queue.
+
+2021-04-02 09:43:15,962 INFO DEFAULT_GROUP@@mall-coupon is changed, add it to push queue.
+
+2021-04-02 09:43:26,031 INFO DEFAULT_GROUP@@mall-auth-server is changed, add it to push queue.
+
+2021-04-02 09:43:29,523 INFO DEFAULT_GROUP@@mall-getaway is changed, add it to push queue.
+
+2021-04-02 09:43:29,620 INFO DEFAULT_GROUP@@mall-cart is changed, add it to push queue.
+
+2021-04-02 09:43:47,644 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2021-04-02 09:44:32,587 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2021-04-02 09:44:38,474 INFO DEFAULT_GROUP@@mall-search is changed, add it to push queue.
+
+2021-04-02 09:44:39,479 INFO DEFAULT_GROUP@@third-party is changed, add it to push queue.
+
+2021-04-02 09:44:44,644 INFO DEFAULT_GROUP@@mall-ware is changed, add it to push queue.
+
+2021-04-02 09:44:51,056 INFO DEFAULT_GROUP@@mall-seckill is changed, add it to push queue.
+
+2021-04-02 09:44:54,537 INFO DEFAULT_GROUP@@mall-order is changed, add it to push queue.
+
+2021-04-02 09:51:03,766 INFO DEFAULT_GROUP@@mall-product is changed, add it to push queue.
+
+2021-04-02 09:51:03,819 INFO serviceName: DEFAULT_GROUP@@mall-product changed, schedule push for: 192.168.56.1:58757, agent: Nacos-Java-Client:v1.1.1, key: 192.168.56.1,58757,38887222377700
+
+2021-04-02 09:51:03,820 INFO send udp packet: 192.168.56.1,58757,38887222377700
+
+2021-04-02 09:51:03,831 INFO received ack: {"type": "push-ack", "lastRefTime":"38887222377700", "data":""} from: 192.168.56.1:58757, cost: 11 ms, unacked: 0, total push: 1
+
+2021-04-02 09:52:45,967 INFO DEFAULT_GROUP@@third-party is changed, add it to push queue.
+
+2021-04-02 10:15:12,386 INFO DEFAULT_GROUP@@mall-seckill is changed, add it to push queue.
+
+2021-04-02 10:15:12,387 INFO serviceName: DEFAULT_GROUP@@mall-seckill changed, schedule push for: 192.168.56.1:59858, agent: Nacos-Java-Client:v1.1.1, key: 192.168.56.1,59858,40335840340800
+
+2021-04-02 10:15:12,387 INFO send udp packet: 192.168.56.1,59858,40335840340800
+
+2021-04-02 10:15:12,387 INFO serviceName: DEFAULT_GROUP@@mall-seckill changed, schedule push for: 192.168.56.1:55511, agent: Nacos-Java-Client:v1.1.1, key: 192.168.56.1,55511,40335840340800
+
+2021-04-02 10:15:12,387 INFO send udp packet: 192.168.56.1,55511,40335840340800
+
+2021-04-02 10:15:12,440 INFO received ack: {"type": "push-ack", "lastRefTime":"40335840340800", "data":""} from: 192.168.56.1:59858, cost: 53 ms, unacked: 1, total push: 3
+
+2021-04-02 10:15:12,441 INFO received ack: {"type": "push-ack", "lastRefTime":"40335840340800", "data":""} from: 192.168.56.1:55511, cost: 54 ms, unacked: 0, total push: 3
+
+2021-04-02 10:15:28,258 INFO DEFAULT_GROUP@@mall-seckill is changed, add it to push queue.
+
+2021-04-02 10:15:28,259 INFO serviceName: DEFAULT_GROUP@@mall-seckill changed, schedule push for: 192.168.56.1:59858, agent: Nacos-Java-Client:v1.1.1, key: 192.168.56.1,59858,40351714073400
+
+2021-04-02 10:15:28,259 INFO send udp packet: 192.168.56.1,59858,40351714073400
+
+2021-04-02 10:15:28,260 INFO received ack: {"type": "push-ack", "lastRefTime":"40351714073400", "data":""} from: 192.168.56.1:59858, cost: 1 ms, unacked: 0, total push: 4
+
+2021-04-02 10:15:28,261 INFO serviceName: DEFAULT_GROUP@@mall-seckill changed, schedule push for: 192.168.56.1:55511, agent: Nacos-Java-Client:v1.1.1, key: 192.168.56.1,55511,40351714073400
+
+2021-04-02 10:15:28,261 INFO send udp packet: 192.168.56.1,55511,40351714073400
+
+2021-04-02 10:15:28,263 INFO received ack: {"type": "push-ack", "lastRefTime":"40351714073400", "data":""} from: 192.168.56.1:55511, cost: 2 ms, unacked: 0, total push: 5
+
+2021-04-02 10:16:24,891 INFO DEFAULT_GROUP@@mall-seckill is changed, add it to push queue.
+
+2021-04-02 10:16:24,891 INFO serviceName: DEFAULT_GROUP@@mall-seckill changed, schedule push for: 192.168.56.1:59858, agent: Nacos-Java-Client:v1.1.1, key: 192.168.56.1,59858,40408345365000
+
+2021-04-02 10:16:24,891 INFO send udp packet: 192.168.56.1,59858,40408345365000
+
+2021-04-02 10:16:24,892 INFO serviceName: DEFAULT_GROUP@@mall-seckill changed, schedule push for: 192.168.56.1:55511, agent: Nacos-Java-Client:v1.1.1, key: 192.168.56.1,55511,40408345365000
+
+2021-04-02 10:16:24,892 INFO send udp packet: 192.168.56.1,55511,40408345365000
+
+2021-04-02 10:16:24,892 INFO received ack: {"type": "push-ack", "lastRefTime":"40408345365000", "data":""} from: 192.168.56.1:59858, cost: 1 ms, unacked: 1, total push: 7
+
+2021-04-02 10:16:24,893 INFO received ack: {"type": "push-ack", "lastRefTime":"40408345365000", "data":""} from: 192.168.56.1:55511, cost: 1 ms, unacked: 0, total push: 7
+
+2021-04-02 10:16:32,247 INFO DEFAULT_GROUP@@mall-seckill is changed, add it to push queue.
+
+2021-04-02 10:16:32,250 INFO serviceName: DEFAULT_GROUP@@mall-seckill changed, schedule push for: 192.168.56.1:59858, agent: Nacos-Java-Client:v1.1.1, key: 192.168.56.1,59858,40415704904900
+
+2021-04-02 10:16:32,250 INFO send udp packet: 192.168.56.1,59858,40415704904900
+
+2021-04-02 10:16:32,251 INFO serviceName: DEFAULT_GROUP@@mall-seckill changed, schedule push for: 192.168.56.1:55511, agent: Nacos-Java-Client:v1.1.1, key: 192.168.56.1,55511,40415704904900
+
+2021-04-02 10:16:32,251 INFO send udp packet: 192.168.56.1,55511,40415704904900
+
+2021-04-02 10:16:32,251 INFO received ack: {"type": "push-ack", "lastRefTime":"40415704904900", "data":""} from: 192.168.56.1:59858, cost: 1 ms, unacked: 1, total push: 9
+
+2021-04-02 10:16:32,252 INFO received ack: {"type": "push-ack", "lastRefTime":"40415704904900", "data":""} from: 192.168.56.1:55511, cost: 1 ms, unacked: 0, total push: 9
+

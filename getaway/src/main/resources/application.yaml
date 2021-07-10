@@ -1,0 +1,79 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        #前台页面
+        - id: freedymall
+          uri: lb://mall-product
+          predicates:
+            - Host=freedymall.com,item.freedymall.com
+        - id: search
+          uri: lb://mall-search
+          predicates:
+            - Host=search.freedymall.com
+        - id: auth
+          uri: lb://mall-auth-server
+          predicates:
+            - Host=auth.freedymall.com
+        - id: cart
+          uri: lb://mall-cart
+          predicates:
+            - Host=cart.freedymall.com
+        - id: cart
+          uri: lb://mall-order
+          predicates:
+            - Host=order.freedymall.com
+        - id: member
+          uri: lb://mall-member
+          predicates:
+            - Host=member.freedymall.com
+        - id: seckill
+          uri: lb://mall-seckill
+          predicates:
+            - Host=seckill.freedymall.com
+        #后台页面
+        - id: coupon
+          uri: lb://mall-coupon
+          predicates:
+            - Path=/api/coupon/**
+          filters:
+            - RewritePath=/api/(?<segment>/?.*), /$\{segment}
+
+        - id: ware
+          uri: lb://mall-ware
+          predicates:
+            - Path=/api/ware/**
+          filters:
+            - RewritePath=/api/(?<segment>/?.*), /$\{segment}
+
+        - id: member
+          uri: lb://mall-member
+          predicates:
+            - Path=/api/member/**
+          filters:
+            - RewritePath=/api/(?<segment>/?.*), /$\{segment}
+
+        - id: third_party
+          uri: lb://third-party
+          predicates:
+            - Path=/api/thirdparty/**
+          filters:
+            - RewritePath=/api/thirdparty/(?<segment>/?.*), /$\{segment}
+
+        - id: product_route
+          uri: lb://mall-product
+          predicates:
+            - Path=/api/product/**
+          filters:
+            - RewritePath=/api/(?<segment>/?.*), /$\{segment}
+
+        - id: admin_route
+          uri: lb://renren-fast
+          predicates:
+            - Path=/api/**
+          filters:
+            - RewritePath=/api/(?<segment>/?.*), /renren-fast/$\{segment}
+##前端项目/API前缀
+logging:
+  level:
+    com.freedy.mall.getaway: debug

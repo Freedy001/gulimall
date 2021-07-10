@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8"/>
+  <title></title>
+  <script type="text/javascript" src="/static/cart/js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="/static/cart/bootstrap/js/bootstrap.js"></script>
+  <script type="text/javascript" src="/static/cart/js/swiper.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/static/cart/css/swiper.min.css"/>
+  <link rel="stylesheet" type="text/css" href="/static/cart/bootstrap/css/bootstrap.css"/>
+  <link rel="stylesheet" type="text/css" href="/static/cart/css/success.css"/>
+
+</head>
+
+<body>
+<!--头部-->
+<div class="alert-info">
+  <div class="hd_wrap_top">
+    <ul class="hd_wrap_left">
+      <li class="hd_home"><i class="glyphicon glyphicon-home"></i>
+        <a href="/javascript:;">谷粒商城首页</a>
+      </li>
+
+    </ul>
+
+    <ul class="hd_wrap_right">
+      <li class="forel">
+        <a href="/javascript:;" class="link_login" th:if="${session.data==null}">你好,请登录</a>&nbsp;
+        <a href="/javascript:;" class="link_regist" th:if="${session.data==null}">免费注册</a>
+        <a href="/javascript:;" class="link_regist" th:if="${session.data!=null}">欢迎:[[${session.data.username}]]</a>
+      </li>
+      <li class="spacer"></li>
+
+      <li>
+        <a href="/javascript:;">我的订单</a>
+      </li>
+
+
+    </ul>
+
+  </div>
+</div>
+
+<div class="nav-tabs-justified">
+  <div class="nav_wrap">
+
+    <div class="nav_top">
+      <div class="nav_top_one">
+        <a href="http://freedymall.com/">
+          <img src="/static/cart/img/logo1.jpg" style="height: 60px;width:180px;"/>
+        </a>
+      </div>
+      <div class="nav_top_two"><input type="text"/>
+        <button>搜索</button>
+      </div>
+
+
+    </div>
+
+  </div>
+</div>
+
+<div class="main">
+
+  <div class="success-wrap">
+    <div class="w" id="result">
+      <div class="m succeed-box">
+        <div th:if="${orderSn!=null}" class="mc success-cont">
+          <h1>恭喜秒杀成功，订单号[[${orderSn}]]</h1>
+          <h2>正在准备订单数据.....,
+            <span style="color: red" id="sec" th:attr="orderSn=${orderSn},isJump=${orderSn!=null}">10</span>
+            s中后自动跳转支付页面</h2>
+        </div>
+        <div th:if="${orderSn==null}" class="mc success-cont">
+          <h1>手气不好,秒杀失败,下次再来！</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+<script type="text/javascript" src="/static/cart/js/success.js"></script>
+<script>
+  let counter=$("#sec")
+ if (counter.attr("isJump")==="true"){
+   let time=10;
+   setInterval(function () {
+     counter.text(time);
+     time--;
+   },1000)
+   setTimeout(function () {
+     location.href=`http://order.freedymall.com/payOrder?orderSn=${counter.attr("ordersn")}`
+   },10000)
+ }
+
+</script>
+</html>

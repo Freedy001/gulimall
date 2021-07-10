@@ -1,0 +1,200 @@
+2021-03-26 21:09:06,184 INFO Starting Nacos v1.4.1 on Freedy with PID 19056 (C:\Users\Freedy\Desktop\nacos\target\nacos-server.jar started by Freedy in C:\Users\Freedy\Desktop\nacos\bin)
+
+2021-03-26 21:09:06,192 INFO The following profiles are active: standalone
+
+2021-03-26 21:09:20,669 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@ca27722' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2021-03-26 21:09:20,679 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2021-03-26 21:09:21,813 INFO Tomcat initialized with port(s): 8848 (http)
+
+2021-03-26 21:09:21,875 INFO Starting service [Tomcat]
+
+2021-03-26 21:09:21,875 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2021-03-26 21:09:23,054 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2021-03-26 21:09:23,145 INFO Initializing Spring embedded WebApplicationContext
+
+2021-03-26 21:09:23,145 INFO Root WebApplicationContext: initialization completed in 16725 ms
+
+2021-03-26 21:09:25,292 INFO HikariPool-1 - Starting...
+
+2021-03-26 21:09:25,313 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+
+2021-03-26 21:09:26,447 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+
+2021-03-26 21:09:26,465 INFO HikariPool-1 - Start completed.
+
+2021-03-26 21:09:28,741 INFO Nacos-related cluster resource initialization
+
+2021-03-26 21:09:28,757 INFO The cluster resource is initialized
+
+2021-03-26 21:09:30,039 INFO Reflections took 179 ms to scan 1 urls, producing 4 keys and 6 values 
+
+2021-03-26 21:09:30,107 INFO Reflections took 11 ms to scan 1 urls, producing 6 keys and 26 values 
+
+2021-03-26 21:09:30,163 INFO Reflections took 18 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2021-03-26 21:09:30,227 INFO Reflections took 10 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2021-03-26 21:09:32,648 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2021-03-26 21:09:32,854 INFO Adding welcome page: class path resource [static/index.html]
+
+2021-03-26 21:09:34,592 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2021-03-26 21:09:34,684 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2c63762b, org.springframework.security.web.context.SecurityContextPersistenceFilter@696db620, org.springframework.security.web.header.HeaderWriterFilter@6a1ef65c, org.springframework.security.web.csrf.CsrfFilter@2f10f633, org.springframework.security.web.authentication.logout.LogoutFilter@4cad79bc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d986d83, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12a470dd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a9eccc4, org.springframework.security.web.session.SessionManagementFilter@798dad3d, org.springframework.security.web.access.ExceptionTranslationFilter@b0fd744]
+
+2021-03-26 21:09:35,092 INFO Initializing ExecutorService 'taskScheduler'
+
+2021-03-26 21:09:35,126 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2021-03-26 21:09:35,434 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2021-03-26 21:09:35,560 INFO Started Nacos in 34.923 seconds (JVM running for 37.506)
+
+2021-03-26 21:09:35,560 INFO Nacos started successfully in stand alone mode. use embedded storage
+
+2021-03-26 21:09:35,584 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2021-03-26 21:09:35,585 INFO Initializing Servlet 'dispatcherServlet'
+
+2021-03-26 21:09:35,610 INFO Completed initialization in 22 ms
+
+2021-03-26 21:19:30,637 INFO [capacityManagement] start correct usage
+
+2021-03-26 21:19:30,665 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-03-26 21:19:31,062 WARN clearConfigHistory start
+
+2021-03-26 21:19:31,077 WARN clearConfigHistory, getBeforeStamp:2021-02-24 21:19:31.0, totalCount:19, pageSize:1000, removeTime:1
+
+2021-03-26 21:29:30,723 INFO [capacityManagement] start correct usage
+
+2021-03-26 21:29:30,726 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-03-26 21:29:31,203 WARN clearConfigHistory start
+
+2021-03-26 21:29:31,205 WARN clearConfigHistory, getBeforeStamp:2021-02-24 21:29:31.0, totalCount:19, pageSize:1000, removeTime:1
+
+2021-03-26 21:39:30,727 INFO [capacityManagement] start correct usage
+
+2021-03-26 21:39:30,730 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-03-26 21:39:31,270 WARN clearConfigHistory start
+
+2021-03-26 21:39:31,271 WARN clearConfigHistory, getBeforeStamp:2021-02-24 21:39:31.0, totalCount:19, pageSize:1000, removeTime:1
+
+2021-03-26 21:49:30,731 INFO [capacityManagement] start correct usage
+
+2021-03-26 21:49:30,731 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-03-26 21:49:31,287 WARN clearConfigHistory start
+
+2021-03-26 21:49:31,288 WARN clearConfigHistory, getBeforeStamp:2021-02-24 21:49:31.0, totalCount:19, pageSize:1000, removeTime:1
+
+2021-03-26 21:59:30,733 INFO [capacityManagement] start correct usage
+
+2021-03-26 21:59:30,733 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-03-26 21:59:31,291 WARN clearConfigHistory start
+
+2021-03-26 21:59:31,292 WARN clearConfigHistory, getBeforeStamp:2021-02-24 21:59:31.0, totalCount:19, pageSize:1000, removeTime:1
+
+2021-03-26 22:09:30,735 INFO [capacityManagement] start correct usage
+
+2021-03-26 22:09:30,736 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-03-26 22:09:31,295 WARN clearConfigHistory start
+
+2021-03-26 22:09:31,297 WARN clearConfigHistory, getBeforeStamp:2021-02-24 22:09:31.0, totalCount:19, pageSize:1000, removeTime:1
+
+2021-03-26 22:19:30,863 INFO [capacityManagement] start correct usage
+
+2021-03-26 22:19:30,883 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-03-26 22:19:31,299 WARN clearConfigHistory start
+
+2021-03-26 22:19:31,302 WARN clearConfigHistory, getBeforeStamp:2021-02-24 22:19:31.0, totalCount:19, pageSize:1000, removeTime:1
+
+2021-03-26 22:29:31,209 INFO [capacityManagement] start correct usage
+
+2021-03-26 22:29:31,210 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-03-26 22:29:31,350 WARN clearConfigHistory start
+
+2021-03-26 22:29:31,351 WARN clearConfigHistory, getBeforeStamp:2021-02-24 22:29:31.0, totalCount:19, pageSize:1000, removeTime:1
+
+2021-03-26 22:39:31,212 INFO [capacityManagement] start correct usage
+
+2021-03-26 22:39:31,213 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-03-26 22:39:31,353 WARN clearConfigHistory start
+
+2021-03-26 22:39:31,353 WARN clearConfigHistory, getBeforeStamp:2021-02-24 22:39:31.0, totalCount:19, pageSize:1000, removeTime:1
+
+2021-03-26 22:49:31,214 INFO [capacityManagement] start correct usage
+
+2021-03-26 22:49:31,215 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-03-26 22:49:31,357 WARN clearConfigHistory start
+
+2021-03-26 22:49:31,358 WARN clearConfigHistory, getBeforeStamp:2021-02-24 22:49:31.0, totalCount:19, pageSize:1000, removeTime:1
+
+2021-03-26 22:59:31,216 INFO [capacityManagement] start correct usage
+
+2021-03-26 22:59:31,216 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-03-26 22:59:31,359 WARN clearConfigHistory start
+
+2021-03-26 22:59:31,360 WARN clearConfigHistory, getBeforeStamp:2021-02-24 22:59:31.0, totalCount:19, pageSize:1000, removeTime:1
+
+2021-03-26 23:09:31,217 INFO [capacityManagement] start correct usage
+
+2021-03-26 23:09:31,218 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-03-26 23:09:31,363 WARN clearConfigHistory start
+
+2021-03-26 23:09:31,364 WARN clearConfigHistory, getBeforeStamp:2021-02-24 23:09:31.0, totalCount:19, pageSize:1000, removeTime:1
+
+2021-03-26 23:19:31,219 INFO [capacityManagement] start correct usage
+
+2021-03-26 23:19:31,220 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-03-26 23:19:31,366 WARN clearConfigHistory start
+
+2021-03-26 23:19:31,369 WARN clearConfigHistory, getBeforeStamp:2021-02-24 23:19:31.0, totalCount:19, pageSize:1000, removeTime:1
+
+2021-03-26 23:29:31,669 INFO [capacityManagement] start correct usage
+
+2021-03-26 23:29:31,670 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-03-26 23:29:31,675 WARN clearConfigHistory start
+
+2021-03-26 23:29:31,678 WARN clearConfigHistory, getBeforeStamp:2021-02-24 23:29:31.0, totalCount:19, pageSize:1000, removeTime:1
+
+2021-03-26 23:39:31,671 INFO [capacityManagement] start correct usage
+
+2021-03-26 23:39:31,671 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-03-26 23:39:31,685 WARN clearConfigHistory start
+
+2021-03-26 23:39:31,685 WARN clearConfigHistory, getBeforeStamp:2021-02-24 23:39:31.0, totalCount:19, pageSize:1000, removeTime:1
+
+2021-03-26 23:49:31,672 INFO [capacityManagement] start correct usage
+
+2021-03-26 23:49:31,674 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-03-26 23:49:31,688 WARN clearConfigHistory start
+
+2021-03-26 23:49:31,740 WARN clearConfigHistory, getBeforeStamp:2021-02-24 23:49:31.0, totalCount:19, pageSize:1000, removeTime:1
+
+2021-03-26 23:59:31,678 INFO [capacityManagement] start correct usage
+
+2021-03-26 23:59:31,679 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-03-26 23:59:31,780 WARN clearConfigHistory start
+
+2021-03-26 23:59:31,781 WARN clearConfigHistory, getBeforeStamp:2021-02-24 23:59:31.0, totalCount:19, pageSize:1000, removeTime:1
+
